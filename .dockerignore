@@ -1,0 +1,9 @@
+node_modules
+.git
+backups
+data
+uploads
+*.log
+.DS_Store
+Demarrer-le-site.bat
+demarrer_site.bat

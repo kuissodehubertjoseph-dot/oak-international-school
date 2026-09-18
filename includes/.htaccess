@@ -1,0 +1,7 @@
+# Ces fichiers ne sont que des dépendances PHP, jamais destinés à être ouverts directement.
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Deny from all
+</IfModule>
