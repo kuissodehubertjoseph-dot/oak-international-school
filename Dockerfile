@@ -1,6 +1,8 @@
 FROM php:8.3-apache
 
 # Extension nécessaire pour la base de données SQLite
+RUN apt-get update && apt-get install -y --no-install-recommends libsqlite3-dev \
+    && rm -rf /var/lib/apt/lists/*
 RUN docker-php-ext-install pdo pdo_sqlite
 
 RUN a2enmod rewrite
