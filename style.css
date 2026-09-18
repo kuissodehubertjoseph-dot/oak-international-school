@@ -252,6 +252,20 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   letter-spacing: .14em; text-transform: uppercase; display: block;
   margin-top: 1px;
 }
+@media (max-width: 991px) {
+  #mainNav .container-fluid { flex-wrap: wrap; justify-content: space-between; }
+  .navbar-brand { min-width: 0; flex-shrink: 1; overflow: hidden; max-width: calc(100% - 60px); }
+  .navbar-brand-wrapper { gap: .5rem; padding: .4rem 0; min-width: 0; }
+  .navbar-logo { width: 44px; height: 44px; flex-shrink: 0; }
+  .brand-text { min-width: 0; overflow: hidden; }
+  .brand-text .school-name {
+    font-size: .82rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .brand-text .school-tagline {
+    font-size: .52rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .navbar-toggler { flex-shrink: 0; padding: .3rem .5rem; }
+}
 .nav-link-custom {
   font-size: 0.83rem; font-weight: 600; color: var(--slate) !important;
   letter-spacing: .01em; padding: 1.28rem .78rem !important;

@@ -70,7 +70,7 @@
     "Informatique": "Computer Science",
     "Juillet – Août 2026": "July – August 2026",
     "Laboratoire de sciences": "Science laboratory",
-    "Le Complexe Scolaire Saint Romaric dispose également d'un": "The school also has a",
+    "Le OAK International School dispose également d'un": "The school also has a",
     "Maternelle – CM2": "Kindergarten – 5th grade",
     "Moyenne": "Average",
     "Nous appeler": "Call us",
@@ -95,7 +95,7 @@
       "The partnership between school staff, parents, the board and other stakeholders is essential. Together, we can set challenges, and our partners can help us ask how we can do even better. I hope you will find all the information you need about our school. If you need any further information, please do not hesitate to contact us.",
     "Je vous souhaite une agréable visite sur notre site web. Je serai ravie de vous rencontrer si vous souhaitez visiter notre école. Nous sommes ouverts et heureux de répondre à toutes les questions des parents, alors n'hésitez pas à appeler notre bureau si vous souhaitez en savoir plus. Merci de votre visite sur notre site !":
       "I wish you a pleasant visit to our website. I would be delighted to meet you should you wish to visit our school. We are open and happy to answer any questions from parents, so please do not hesitate to call our office if you would like to know more. Thank you for visiting our site!",
-    "Rejoindre St Romaric": "Join St Romaric",
+    "Rejoindre OAK International School": "Join OAK International School",
     "Salle informatique": "Computer room",
     "Septembre 2026": "September 2026",
     "Téléphone": "Phone",
@@ -112,10 +112,10 @@
     "École Primaire": "Primary School",
     "Élèves inscrits": "Enrolled students",
     "Épanouissement personnel": "Personal development",
-    ", établissement privé laïc d'enseignement secondaire, situé à Akassato, Abomey-Calavi, République du Bénin.":
-      ", a private secular secondary school located in Akassato, Abomey-Calavi, Republic of Benin.",
-    ", établissement privé laïc d'enseignement secondaire basé à Akassato, Abomey-Calavi, engagé depuis 2001 dans la réussite scolaire, l'épanouissement personnel et la formation citoyenne des jeunes béninois.":
-      ", a private secular secondary school based in Akassato, Abomey-Calavi, committed since 2001 to academic success, personal development and civic education of young Beninese people.",
+    ", établissement privé laïc d'enseignement secondaire, situé Rue Pharmaquick, Akpakpa, Cotonou, République du Bénin.":
+      ", a private secular secondary school located on Rue Pharmaquick, Akpakpa, Cotonou, Republic of Benin.",
+    ", établissement privé laïc d'enseignement secondaire basé à Akpakpa, Cotonou, engagé depuis 2001 dans la réussite scolaire, l'épanouissement personnel et la formation citoyenne des jeunes béninois.":
+      ", a private secular secondary school based in Akpakpa, Cotonou, committed since 2001 to academic success, personal development and civic education of young Beninese people.",
     "0 / 20 caractères minimum": "0 / 20 characters minimum",
     "12h00 – 14h00": "12:00pm – 2:00pm",
     "12h30 – 15h30": "12:30pm – 3:30pm",
@@ -148,6 +148,9 @@
     "Activités parascolaires variées": "Various extracurricular activities",
     "Adaptation au cycle secondaire, méthode de travail et organisation.": "Adjustment to secondary school, study methods and organization.",
     "Adresse": "Address",
+    "E-mail": "Email",
+    "Rue Pharmaquick, en face Société LABOREX": "Rue Pharmaquick, opposite Société LABOREX",
+    "Cité Vie Nouvelle, Akpakpa, Cotonou, Bénin": "Cité Vie Nouvelle, Akpakpa, Cotonou, Benin",
     "Agenda": "Schedule",
     "Aide aux devoirs et révisions chaque soir en semaine.": "Homework help and review every weekday evening.",
     "Aire de jeux": "Playground",
@@ -312,7 +315,7 @@
     "Intensification, examens blancs BEPC/BAC": "Intensive review, mock BEPC/BAC exams",
     "Internat | OAK International School": "Boarding School | OAK International School",
     "Introduction aux notions avancées et orientation progressive.": "Introduction to advanced concepts and gradual guidance.",
-    "Intégrer St Romaric": "Join St Romaric",
+    "Intégrer OAK International School": "Join OAK International School",
     "Intégrez une école où chaque moment compte et chaque réussite est célébrée.": "Join a school where every moment matters and every success is celebrated.",
     "Intégrité": "Integrity",
     "Itinéraire sur Google Maps": "Directions on Google Maps",
@@ -320,8 +323,8 @@
       "I agree that the information entered will be used exclusively to process this pre-registration request, in accordance with the",
     "J'accepte que mes données soient utilisées pour traiter ma demande, conformément à notre":
       "I agree that my data will be used to process my request, in accordance with our",
-    "J'ai eu mon BAC série C avec mention Très Bien grâce à la préparation intensive des profs de St Romaric. Aujourd'hui je suis en 2e année de médecine. Merci à toute l'équipe !":
-      "I got my BAC in Series C with high honors thanks to the intensive preparation from St Romaric's teachers. Today I'm in my second year of medical school. Thanks to the whole team!",
+    "J'ai eu mon BAC série C avec mention Très Bien grâce à la préparation intensive des profs d'OAK International School. Aujourd'hui je suis en 2e année de médecine. Merci à toute l'équipe !":
+      "I got my BAC in Series C with high honors thanks to the intensive preparation from OAK International School's teachers. Today I'm in my second year of medical school. Thanks to the whole team!",
     "Janvier – Mars 2027": "January – March 2027",
     "Jeux éducatifs": "Educational games",
     "Journée complète": "Full day",
@@ -330,15 +333,15 @@
     "L'effort régulier comme clé de la réussite": "Consistent effort as the key to success",
     "L'ensemble des contenus présents sur ce site (textes, images, logo, mise en page) est la propriété du OAK International School, sauf mention contraire, et ne peut être reproduit, distribué ou exploité sans autorisation préalable.":
       "All content on this site (text, images, logo, layout) is the property of OAK International School, unless otherwise stated, and may not be reproduced, distributed or used without prior authorization.",
-    "L'excellence académique ne suffit pas. Chez St Romaric, nous cultivons aussi la créativité, le sport, la citoyenneté et la vie en collectivité.":
-      "Academic excellence is not enough. At St Romaric, we also nurture creativity, sport, citizenship and community life.",
+    "L'excellence académique ne suffit pas. Chez OAK International School, nous cultivons aussi la créativité, le sport, la citoyenneté et la vie en collectivité.":
+      "Academic excellence is not enough. At OAK International School, we also nurture creativity, sport, citizenship and community life.",
     "L'internat accueille les élèves du CM1 à la Terminale, dans la limite des places disponibles chaque année.":
       "The boarding school welcomes students from CM1 (5th grade) to the final year, subject to available places each year.",
     "L'équipe administrative": "The administrative team",
     "La direction du OAK International School est responsable de la publication du présent site.": "The management of OAK International School is responsible for publishing this site.",
     "La musique": "Music",
     "La vie aux Élites": "Life at Élites",
-    "La vie à Saint Romaric": "Life at Saint Romaric",
+    "La vie à OAK International School": "Life at OAK International School",
     "La vie à l'internat": "Boarding school life",
     "Laboratoires de sciences": "Science laboratories",
     "Langage oral": "Oral language",
@@ -383,8 +386,8 @@
     "Mission · Vision · Valeurs": "Mission · Vision · Values",
     "Modalités & tarifs": "Terms & fees",
     "Moment de convivialité": "A friendly moment",
-    "Mon fils a intégré St Romaric en 6e. Aujourd'hui en Terminale, il a le niveau, la méthode et la confiance pour réussir son BAC. Les enseignants sont vraiment présents et à l'écoute.":
-      "My son joined St Romaric in 6th grade. Now in his final year, he has the level, the method and the confidence to pass his BAC. The teachers are truly present and attentive.",
+    "Mon fils a intégré OAK International School en 6e. Aujourd'hui en Terminale, il a le niveau, la méthode et la confiance pour réussir son BAC. Les enseignants sont vraiment présents et à l'écoute.":
+      "My son joined OAK International School in 6th grade. Now in his final year, he has the level, the method and the confidence to pass his BAC. The teachers are truly present and attentive.",
     "Motricité": "Motor skills",
     "Moy.": "Avg.",
     "Moyenne générale": "Overall average",
@@ -432,20 +435,20 @@
     "Où nous trouver": "Where to find us",
     "Parent d'élève — Classe de 3e": "Parent — 3ème (9th grade)",
     "Parent d'élève — Double inscription": "Parent — Two children enrolled",
-    "Depuis que ma fille est à St Romaric, elle a gagné en confiance et en autonomie. Le suivi personnalisé des enseignants fait toute la différence.":
-      "Since my daughter joined St Romaric, she has gained confidence and independence. The teachers' personalized support makes all the difference.",
+    "Depuis que ma fille est à OAK International School, elle a gagné en confiance et en autonomie. Le suivi personnalisé des enseignants fait toute la différence.":
+      "Since my daughter joined OAK International School, she has gained confidence and independence. The teachers' personalized support makes all the difference.",
     "Parent d'élève — Classe de CM2": "Parent — 5th grade class",
     "Le sérieux de l'encadrement et la qualité des enseignants ont permis à mon fils de décrocher une mention au BAC. Une école qui tient ses promesses.":
       "The seriousness of the supervision and the quality of the teachers helped my son earn honors on his BAC. A school that keeps its promises.",
     "Parent d'élève — Classe de Terminale": "Parent — Final year class",
-    "St Romaric m'a donné les bases solides pour réussir mes études supérieures. Je garde un excellent souvenir de mes années ici.":
-      "St Romaric gave me the solid foundations to succeed in higher education. I have excellent memories of my years here.",
+    "OAK International School m'a donné les bases solides pour réussir mes études supérieures. Je garde un excellent souvenir de mes années ici.":
+      "OAK International School gave me the solid foundations to succeed in higher education. I have excellent memories of my years here.",
     "Ancienne élève — Promotion 2018": "Former student — Class of 2018",
     "L'internat a rassuré toute la famille. Mon fils est bien encadré, bien nourri et suit sérieusement ses cours du soir.":
       "The boarding school reassured the whole family. My son is well supervised, well fed and takes his evening study seriously.",
     "Parent d'élève — Classe de 6e": "Parent — 6th grade class",
-    "Mes trois enfants sont scolarisés à St Romaric. La communication avec les enseignants est excellente et les résultats parlent d'eux-mêmes.":
-      "All three of my children are enrolled at St Romaric. Communication with the teachers is excellent and the results speak for themselves.",
+    "Mes trois enfants sont scolarisés à OAK International School. La communication avec les enseignants est excellente et les résultats parlent d'eux-mêmes.":
+      "All three of my children are enrolled at OAK International School. Communication with the teachers is excellent and the results speak for themselves.",
     "Parent d'élève — Triple inscription": "Parent — Three children enrolled",
     "Partenariat / Presse": "Partnership / Press",
     "Partenariat avec les parents": "Partnership with parents",
@@ -469,7 +472,7 @@
       "For students coming from far away or whose parents are looking for a structured environment, OAK International School offers a small-scale co-ed boarding facility within the school itself. Separate dormitories for girls and boys, round-the-clock supervision and a steady daily routine: everything is designed so that every boarder feels safe and can fully focus on their studies.",
     "Pour toute question relative aux présentes mentions légales, vous pouvez nous contacter via notre":
       "For any question regarding this legal notice, you can contact us via our",
-    "Pourquoi St Romaric ?": "Why St Romaric?",
+    "Pourquoi OAK International School ?": "Why OAK International School?",
     "Pourquoi un internat ?": "Why a boarding school?",
     "Processus d'admission": "Admission process",
     "Programmes ambitieux, enseignants qualifiés.": "Ambitious programs, qualified teachers.",
@@ -645,7 +648,7 @@
     "Évolution des taux de réussite": "Success rate trends",
     "Être l'établissement de référence au Bénin, reconnu pour la qualité de son corps enseignant, l'excellence de ses résultats et l'impact positif de ses anciens élèves sur la société béninoise et africaine.":
       "To be the leading school in Benin, recognized for the quality of its teaching staff, the excellence of its results and the positive impact of its alumni on Beninese and African society.",
-    "à St Romaric": "at St Romaric",
+    "à OAK International School": "at OAK International School",
     "— 10 ans": "— 10 years old",
     "— 11 ans": "— 11 years old",
     "— 12 ans": "— 12 years old",
@@ -679,7 +682,7 @@
     "Image suivante": "Next image",
     "Témoignage précédent": "Previous testimonial",
     "Témoignage suivant": "Next testimonial",
-    "Localisation OAK International School — Akassato, Abomey-Calavi": "OAK International School location — Akassato, Abomey-Calavi"
+    "Localisation OAK International School — Akpakpa, Cotonou": "OAK International School location — Akpakpa, Cotonou"
   };
 
   // Dictionnaire inverse (anglais -> français) pour le retour en FR

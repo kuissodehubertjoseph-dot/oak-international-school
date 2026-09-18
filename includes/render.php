@@ -252,6 +252,13 @@ function render_footer_contact(array $c): string {
           <div class="footer-contact-text">
             ' . h($c['horaires_semaine']) . '<br>' . h($c['horaires_samedi']) . '
           </div>
+        </div>
+
+        <div class="footer-contact-item">
+          <div class="footer-contact-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="footer-contact-text">
+            <a href="mailto:' . h($c['email']) . '">' . h($c['email']) . '</a>
+          </div>
         </div>';
 }
 
@@ -284,6 +291,15 @@ function render_contact_quick_cards(array $c): string {
           <div style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green-light);margin-bottom:.4rem">Heures d\'ouverture</div>
           <p style="font-size:.88rem;color:var(--slate);line-height:1.6;margin:0">' . h($c['horaires_semaine']) . '<br>' . h($c['horaires_samedi']) . '</p>
         </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal">
+        <div style="background:#fff;border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.5rem;text-align:center;height:100%;box-shadow:var(--shadow-sm)">
+          <div style="width:52px;height:52px;background:var(--green-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;font-size:1.1rem;color:var(--green)">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green-light);margin-bottom:.4rem">E-mail</div>
+          <a href="mailto:' . h($c['email']) . '" style="font-size:.88rem;color:var(--slate);line-height:1.6">' . h($c['email']) . '</a>
+        </div>
       </div>';
 }
 
@@ -315,6 +331,14 @@ function render_contact_info_list(array $c): string {
             <div>
               <div class="contact-info-label">Heures d\'accueil</div>
               <div class="contact-info-value">' . h($c['horaires_semaine']) . '<br>' . h($c['horaires_samedi']) . '</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <div class="contact-info-label">E-mail</div>
+              <div class="contact-info-value"><a href="mailto:' . h($c['email']) . '">' . h($c['email']) . '</a></div>
             </div>
           </div>';
 }

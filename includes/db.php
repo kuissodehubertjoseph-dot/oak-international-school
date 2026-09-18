@@ -191,8 +191,8 @@ if ($adminCount === 0) {
 $laureatCount = (int) $pdo->query('SELECT COUNT(*) FROM laureats')->fetchColumn();
 if ($laureatCount === 0) {
     $stmt = $pdo->prepare('INSERT INTO laureats (nom, classe, examen, annee, moyenne, rang, rang_departemental, serie, medaille, photo, featured) VALUES (?,?,?,?,?,?,?,?,?,?,?)');
-    $stmt->execute(['Afiwa KODJO', '3ème', 'BEPC', 2024, 18.75, '8ème', '1er', 'Série A (Littéraire)', '🥇', 'images/img16.jpg', 1]);
-    $stmt->execute(['Bernice TOSSOU', 'Tle C', 'BAC', 2024, 17.92, '12ème', '3ème', null, '🥈', 'images/img17.jpg', 0]);
+    $stmt->execute(['Afiwa KODJO', '3ème', 'BEPC', 2024, 18.75, '8ème', '1er', 'Série A (Littéraire)', '🥇', 'images/laureat-a89816267a91.jpg', 1]);
+    $stmt->execute(['Bernice TOSSOU', 'Tle C', 'BAC', 2024, 17.92, '12ème', '3ème', null, '🥈', 'images/39-Large-2.jpeg', 0]);
 } else {
     /* Complète les anciennes fiches lauréats avec les nouveaux champs, une seule fois. */
     $stmt = $pdo->prepare("UPDATE laureats SET rang_departemental=?, serie=?, featured=? WHERE nom=? AND rang_departemental IS NULL");
@@ -206,8 +206,8 @@ if ($laureatCount === 0) {
 $actuCount = (int) $pdo->query('SELECT COUNT(*) FROM actualites')->fetchColumn();
 if ($actuCount === 0) {
     $stmt = $pdo->prepare('INSERT INTO actualites (titre, slug, categorie, extrait, image, date_pub) VALUES (?,?,?,?,?,?)');
-    $stmt->execute(['5 astuces pour réussir son BAC au Bénin', '5-astuces-reussir-bac-benin', 'Conseils', "Découvrez les méthodes de révision les plus efficaces...", 'images/img16.jpg', '2026-03-26']);
-    $stmt->execute(['Inauguration du nouveau laboratoire', 'inauguration-labo-sciences', 'Événements', 'Les Élites investissent dans le futur...', 'images/img17.jpg', '2026-03-26']);
+    $stmt->execute(['5 astuces pour réussir son BAC au Bénin', '5-astuces-reussir-bac-benin', 'Conseils', "Découvrez les méthodes de révision les plus efficaces...", 'images/laureat-a89816267a91.jpg', '2026-03-26']);
+    $stmt->execute(['Inauguration du nouveau laboratoire', 'inauguration-labo-sciences', 'Événements', 'Les Élites investissent dans le futur...', 'images/49-Large.jpeg', '2026-03-26']);
 }
 
 /* ══════════════════════════════════════════════════════════
@@ -290,27 +290,27 @@ if ((int) $pdo->query('SELECT COUNT(*) FROM staff')->fetchColumn() === 0) {
 
 if ((int) $pdo->query('SELECT COUNT(*) FROM galerie_photos')->fetchColumn() === 0) {
     $photos = [
-        ['images/img1.jpg', "Cérémonie d'ouverture"],
-        ['images/img2.jpg', 'Bâtiment principal'],
-        ['images/img3.jpg', 'Laboratoire de sciences'],
-        ['images/img4.jpg', 'Bibliothèque numérique'],
-        ['images/img5.jpg', 'Activités sportives'],
-        ['images/img6.jpg', 'Remise de diplômes'],
-        ['images/img7.jpg', 'Cour de récréation'],
-        ['images/img8.jpg', 'Salle de classe'],
-        ['images/img9.jpg', 'Fête culturelle'],
-        ['images/img10.jpg', "Concours d'éloquence"],
-        ['images/img11.jpg', 'Visite scientifique'],
-        ['images/img12.jpg', 'Journée portes ouvertes'],
-        ['images/img13.jpg', 'Club de lecture'],
-        ['images/img14.jpg', "Séance d'arts plastiques"],
-        ['images/img15.jpg', 'Tournoi inter-classes'],
-        ['images/img16.jpg', 'Lauréats du BEPC'],
-        ['images/img17.jpg', 'Inauguration labo'],
-        ['images/img18.jpg', "Séance d'informatique"],
-        ['images/img19.jpg', 'Excursion pédagogique'],
-        ['images/img20.jpg', 'Récompenses académiques'],
-        ['images/img21.jpg', 'Remise de prix annuelle'],
+        ['images/6-Large-1.jpeg', "Cérémonie d'ouverture"],
+        ['images/22-Large-1.jpeg', 'Bâtiment principal'],
+        ['images/25-Large-1.jpeg', 'Laboratoire de sciences'],
+        ['images/32-Large-1.jpeg', 'Bibliothèque numérique'],
+        ['images/33-Large-2.jpeg', 'Activités sportives'],
+        ['images/34-Large-2.jpeg', 'Remise de diplômes'],
+        ['images/35-Large-2.jpeg', 'Cour de récréation'],
+        ['images/36-Large-1.jpeg', 'Salle de classe'],
+        ['images/37-Large-1.jpeg', 'Fête culturelle'],
+        ['images/39-Large-2.jpeg', "Concours d'éloquence"],
+        ['images/40-Large-1.jpeg', 'Visite scientifique'],
+        ['images/41-Large-1.jpeg', 'Journée portes ouvertes'],
+        ['images/42-Large-2.jpeg', 'Club de lecture'],
+        ['images/43-Large-1.jpeg', "Séance d'arts plastiques"],
+        ['images/44-Large-2.jpeg', 'Tournoi inter-classes'],
+        ['images/47-Large.jpeg', 'Lauréats du BEPC'],
+        ['images/49-Large.jpeg', 'Inauguration labo'],
+        ['images/68-Large.jpeg', "Séance d'informatique"],
+        ['images/110-Large.jpeg', 'Excursion pédagogique'],
+        ['images/146-Large.jpeg', 'Récompenses académiques'],
+        ['images/159-Large.jpeg', 'Remise de prix annuelle'],
     ];
     $stmt = $pdo->prepare('INSERT INTO galerie_photos (image, titre, ordre) VALUES (?,?,?)');
     foreach ($photos as $i => $p) { $stmt->execute([$p[0], $p[1], $i + 1]); }
@@ -330,7 +330,7 @@ if ((int) $pdo->query('SELECT COUNT(*) FROM stats')->fetchColumn() === 0) {
 
 if ((int) $pdo->query('SELECT COUNT(*) FROM contact_info')->fetchColumn() === 0) {
     $stmt = $pdo->prepare('INSERT INTO contact_info (id, adresse_ligne1, adresse_ligne2, telephone1, telephone2, horaires_semaine, horaires_samedi, email) VALUES (1,?,?,?,?,?,?,?)');
-    $stmt->execute(['Akassato', 'Abomey-Calavi, Bénin', '+229 01 95 86 51 20', '+229 01 96 91 17 19', 'Lun – Ven : 7h30 – 17h30', 'Samedi : 8h00 – 13h00', 'contact@stromaric.bj']);
+    $stmt->execute(['Rue Pharmaquick, en face Société LABOREX', 'Cité Vie Nouvelle, Akpakpa, Cotonou, Bénin', '(+229) 0164 931 111', '(+229) 0160 022 222', 'Lun – Ven : 7h30 – 17h30', 'Samedi : 8h00 – 13h00', 'Info@oisbenin.com']);
 }
 
 if ((int) $pdo->query('SELECT COUNT(*) FROM cycles_niveaux')->fetchColumn() === 0) {

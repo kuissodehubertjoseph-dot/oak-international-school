@@ -87,7 +87,7 @@ $laureats = $pdo->query('SELECT * FROM laureats ORDER BY annee DESC, id DESC')->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lauréats | St Romaric</title>
+<title>Lauréats | OAK International School</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -154,7 +154,7 @@ $laureats = $pdo->query('SELECT * FROM laureats ORDER BY annee DESC, id DESC')->
         </div>
         <div class="field">
           <label>Photo</label>
-          <input type="text" name="photo" value="<?= h($e['photo']) ?>" placeholder="images/img16.jpg">
+          <input type="text" name="photo" value="<?= h($e['photo']) ?>" placeholder="images/47-Large.jpeg">
           <div class="hint">Chemin d'une image déjà présente dans /images, ou envoyez un nouveau fichier ci-dessous.</div>
         </div>
         <div class="field"><input type="file" name="photo_file" accept="image/*"></div>

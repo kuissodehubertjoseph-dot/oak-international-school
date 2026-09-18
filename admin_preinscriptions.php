@@ -29,7 +29,7 @@ function initials($a, $b = '') {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pré-inscriptions | St Romaric</title>
+<title>Pré-inscriptions | OAK International School</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -42,7 +42,7 @@ function initials($a, $b = '') {
   <aside class="admin-sidebar">
     <div class="sidebar-brand">
       <img src="images/romaric.jpeg" alt="Logo">
-      <div><div class="name">St Romaric</div><div class="tag">Administration</div></div>
+      <div><div class="name">OAK International School</div><div class="tag">Administration</div></div>
     </div>
 
     <div class="sidebar-section-label">Principal</div>

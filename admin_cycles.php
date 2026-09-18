@@ -72,7 +72,7 @@ $niveaux = $pdo->query('SELECT * FROM cycles_niveaux ORDER BY ordre ASC, id ASC'
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cycles & matières | St Romaric</title>
+<title>Cycles & matières | OAK International School</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">

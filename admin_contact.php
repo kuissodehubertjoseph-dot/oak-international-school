@@ -44,7 +44,7 @@ $c = $pdo->query('SELECT * FROM contact_info WHERE id = 1')->fetch();
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Infos de contact | St Romaric</title>
+<title>Infos de contact | OAK International School</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -81,8 +81,8 @@ $c = $pdo->query('SELECT * FROM contact_info WHERE id = 1')->fetch();
           <div class="field"><label>Adresse — ligne 2</label><input type="text" name="adresse_ligne2" value="<?= h($c['adresse_ligne2']) ?>"></div>
         </div>
         <div class="field-row">
-          <div class="field"><label>Téléphone 1</label><input type="tel" name="telephone1" value="<?= h($c['telephone1']) ?>" placeholder="+229 01 95 86 51 20"></div>
-          <div class="field"><label>Téléphone 2</label><input type="tel" name="telephone2" value="<?= h($c['telephone2']) ?>" placeholder="+229 01 96 91 17 19"></div>
+          <div class="field"><label>Téléphone 1</label><input type="tel" name="telephone1" value="<?= h($c['telephone1']) ?>" placeholder="(+229) 0164 931 111"></div>
+          <div class="field"><label>Téléphone 2</label><input type="tel" name="telephone2" value="<?= h($c['telephone2']) ?>" placeholder="(+229) 0160 022 222"></div>
         </div>
         <div class="field-row">
           <div class="field"><label>Horaires — semaine</label><input type="text" name="horaires_semaine" value="<?= h($c['horaires_semaine']) ?>"></div>

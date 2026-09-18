@@ -41,7 +41,7 @@ $imagesWritable  = is_dir(__DIR__ . '/images') && is_writable(__DIR__ . '/images
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Développeur | St Romaric</title>
+<title>Développeur | OAK International School</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <script>
   // Appliqué avant le premier rendu pour éviter le flash clair→sombre.

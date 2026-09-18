@@ -73,7 +73,7 @@ $siteSettings = get_site_settings($pdo);
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Connexion Administration | St Romaric</title>
+<title>Connexion Administration | OAK International School</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
