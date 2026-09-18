@@ -501,6 +501,41 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   letter-spacing: .1em; display: block; margin-top: .22rem; opacity: .8;
 }
 
+/* ── Mise en page "journal" — mot de la direction ─────────── */
+.journal-frame {
+  border-top: 3px double var(--green);
+  border-bottom: 3px double var(--green);
+  padding: 3.5rem 0;
+}
+.journal-photo { position: relative; }
+.journal-caption {
+  display: block; margin-top: .9rem;
+  font-family: var(--font-display); font-style: italic;
+  font-size: .82rem; color: var(--slate-light); text-align: center;
+  border-top: 1px solid var(--border); padding-top: .7rem;
+}
+.journal-kicker {
+  font-family: var(--font-num); text-transform: uppercase; letter-spacing: .28em;
+  font-size: .72rem; color: var(--green-light); font-weight: 700; margin-bottom: .5rem;
+}
+.journal-body p {
+  text-align: justify; -webkit-hyphens: auto; hyphens: auto;
+}
+.journal-lead::first-letter {
+  font-family: var(--font-display); font-size: 3.6rem; font-weight: 800;
+  float: left; line-height: .78; padding: .3rem .55rem 0 0; color: var(--green);
+}
+.journal-pullquote {
+  font-family: var(--font-display); font-style: italic; font-size: 1.2rem;
+  color: var(--green); border-left: 3px solid var(--green-light);
+  padding: .2rem 0 .2rem 1.25rem; margin: 1.75rem 0; line-height: 1.5;
+}
+.journal-signature {
+  font-family: var(--font-display); font-style: italic; font-weight: 700;
+  font-size: 1.05rem; color: var(--green); margin-top: 1.75rem;
+  border-top: 1px dashed var(--border); padding-top: 1.1rem;
+}
+
 .values-grid { display: flex; flex-direction: column; gap: .85rem; margin-top: 1.5rem; }
 .value-item {
   display: flex; align-items: flex-start; gap: 1rem; padding: .9rem;
