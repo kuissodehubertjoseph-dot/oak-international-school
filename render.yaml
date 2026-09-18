@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: oak-international-school
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
