@@ -87,7 +87,7 @@ $laureats = $pdo->query('SELECT * FROM laureats ORDER BY annee DESC, id DESC')->
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lauréats | OAK International School</title>
+<title>Lauréats | Collège Catholique Saint Jean-Baptiste</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">

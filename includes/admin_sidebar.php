@@ -32,7 +32,7 @@ $navItems = [
   <aside class="admin-sidebar">
     <div class="sidebar-brand">
       <?= render_brand_logo($siteSettings) ?>
-      <div><div class="name">OAK International School</div><div class="tag">Administration</div></div>
+      <div><div class="name">Collège Catholique Saint Jean-Baptiste</div><div class="tag">Administration</div></div>
     </div>
 
     <div class="sidebar-section-label">Principal</div>

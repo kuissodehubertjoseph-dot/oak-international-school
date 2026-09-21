@@ -66,7 +66,7 @@ $stats = $pdo->query('SELECT * FROM stats ORDER BY ordre ASC, id ASC')->fetchAll
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chiffres clés | OAK International School</title>
+<title>Chiffres clés | Collège Catholique Saint Jean-Baptiste</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">

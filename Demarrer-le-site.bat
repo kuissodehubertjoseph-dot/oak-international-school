@@ -19,8 +19,8 @@ if not errorlevel 1 (
     goto :end
 )
 
-echo Demarrage du serveur du site OAK International School...
-start "Serveur OAK International School - NE PAS FERMER CETTE FENETRE" "%PHP_EXE%" -S 127.0.0.1:%PORT%
+echo Demarrage du serveur du site Collège Catholique Saint Jean-Baptiste...
+start "Serveur Collège Catholique Saint Jean-Baptiste - NE PAS FERMER CETTE FENETRE" "%PHP_EXE%" -S 127.0.0.1:%PORT%
 
 echo Attente du demarrage du serveur...
 :waitloop

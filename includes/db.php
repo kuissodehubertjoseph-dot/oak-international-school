@@ -92,7 +92,7 @@ $pdo->exec("CREATE TABLE IF NOT EXISTS site_settings (
 )");
 if ((int) $pdo->query("SELECT COUNT(*) FROM site_settings WHERE id = 'main'")->fetchColumn() === 0) {
     $pdo->prepare("INSERT INTO site_settings (id, data) VALUES ('main', ?)")
-        ->execute([json_encode(['logo_mode' => 'image', 'logo_text' => 'OAK International School'], JSON_UNESCAPED_UNICODE)]);
+        ->execute([json_encode(['logo_mode' => 'image', 'logo_text' => 'Collège Catholique Saint Jean-Baptiste'], JSON_UNESCAPED_UNICODE)]);
 }
 
 $pdo->exec("CREATE TABLE IF NOT EXISTS preinscriptions (

@@ -16,7 +16,7 @@
   function applyLogo(settings) {
     if (!settings || !settings.logo_mode) return;
     var isText = settings.logo_mode === 'text';
-    var text = settings.logo_text || 'OAK International School';
+    var text = settings.logo_text || 'Collège Catholique Saint Jean-Baptiste';
 
     document.querySelectorAll('.navbar-logo, .footer-logo-area img').forEach(function (img) {
       var textEl = img.nextElementSibling && img.nextElementSibling.classList.contains('brand-logo-text-dynamic')

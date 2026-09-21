@@ -75,7 +75,7 @@ $staff = $pdo->query('SELECT * FROM staff ORDER BY ordre ASC, id ASC')->fetchAll
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Équipe administrative | OAK International School</title>
+<title>Équipe administrative | Collège Catholique Saint Jean-Baptiste</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">

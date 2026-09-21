@@ -73,7 +73,7 @@ $siteSettings = get_site_settings($pdo);
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Connexion Administration | OAK International School</title>
+<title>Connexion Administration | Collège Catholique Saint Jean-Baptiste</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -181,7 +181,7 @@ $siteSettings = get_site_settings($pdo);
   <div class="brand">
     <?= render_brand_logo($siteSettings) ?>
     <div>
-      <div class="name">OAK International School</div>
+      <div class="name">Collège Catholique Saint Jean-Baptiste</div>
       <div class="tag">Espace administration</div>
     </div>
   </div>
@@ -201,7 +201,7 @@ $siteSettings = get_site_settings($pdo);
     </div>
   </div>
 
-  <div class="footnote">© 2026 OAK International School — Cotonou, Bénin</div>
+  <div class="footnote">© 2026 Collège Catholique Saint Jean-Baptiste — Cotonou, Bénin</div>
 </div>
 
 <div class="login-panel">
