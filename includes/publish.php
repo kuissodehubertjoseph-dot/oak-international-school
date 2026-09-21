@@ -91,14 +91,3 @@ function publish_cycles(PDO $pdo): array {
     ];
 }
 
-function publish_internat(PDO $pdo): array {
-    $comprend = $pdo->query("SELECT * FROM internat_items WHERE section = 'comprend' ORDER BY ordre ASC, id ASC")->fetchAll();
-    $inclus   = $pdo->query("SELECT * FROM internat_items WHERE section = 'inclus' ORDER BY ordre ASC, id ASC")->fetchAll();
-    $horaires = $pdo->query('SELECT * FROM internat_horaires ORDER BY ordre ASC, id ASC')->fetchAll();
-
-    return [
-        'comprend' => replace_block(site_path('internat.html'), 'INTERNAT_COMPREND', render_internat_comprend_block($comprend)),
-        'inclus'   => replace_block(site_path('internat.html'), 'INTERNAT_INCLUS', render_internat_inclus_block($inclus)),
-        'horaires' => replace_block(site_path('internat.html'), 'INTERNAT_HORAIRES', render_internat_horaires_block($horaires)),
-    ];
-}

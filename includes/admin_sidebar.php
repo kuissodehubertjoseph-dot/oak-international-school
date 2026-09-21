@@ -19,7 +19,6 @@ $navItems = [
     'stats'    => ['admin_stats.php', 'fa-chart-simple', 'Chiffres clés'],
     'contact'  => ['admin_contact.php', 'fa-address-card', 'Infos de contact'],
     'cycles'   => ['admin_cycles.php', 'fa-layer-group', 'Cycles & matières'],
-    'internat' => ['admin_internat.php', 'fa-bed', 'Internat'],
 ];
 ?>
   <?php if (!empty($_SESSION['impersonator_id'])): ?>
