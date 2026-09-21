@@ -184,8 +184,16 @@ $pdo->exec("CREATE TABLE IF NOT EXISTS actualites (
 
 $adminCount = (int) $pdo->query('SELECT COUNT(*) FROM admins')->fetchColumn();
 if ($adminCount === 0) {
+    // Le mot de passe initial vient d'une variable d'environnement (ADMIN_DEFAULT_PASSWORD) ;
+    // à défaut, un mot de passe aléatoire est généré et écrit uniquement dans les logs serveur
+    // (jamais dans le code source, pour ne pas exposer de secret dans un dépôt public).
+    $initialPassword = getenv('ADMIN_DEFAULT_PASSWORD');
+    if (!$initialPassword) {
+        $initialPassword = bin2hex(random_bytes(6));
+        error_log("[setup] Compte admin initial créé : admin@oisbenin.com / mot de passe : $initialPassword — changez-le immédiatement après connexion.");
+    }
     $stmt = $pdo->prepare('INSERT INTO admins (email, password_hash, nom) VALUES (?, ?, ?)');
-    $stmt->execute(['admin@leselites.bj', password_hash('LesElites2026!', PASSWORD_DEFAULT), 'Administrateur']);
+    $stmt->execute(['admin@oisbenin.com', password_hash($initialPassword, PASSWORD_DEFAULT), 'Administrateur']);
 }
 
 $laureatCount = (int) $pdo->query('SELECT COUNT(*) FROM laureats')->fetchColumn();

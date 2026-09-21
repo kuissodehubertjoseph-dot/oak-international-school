@@ -9,11 +9,11 @@ Ce site (PHP 8.3 + SQLite) est prêt à être déployé sur Railway via le `Dock
 - `includes/db.php` — le chemin de la base SQLite est configurable via la variable d'environnement `DB_PATH` (sinon `data/leselites.sqlite` par défaut).
 - `.gitignore` / `.dockerignore` — excluent `data/`, `uploads/` et `backups/` du dépôt et de l'image : ces dossiers contiennent des données sensibles (mots de passe admin hashés, dossiers d'élèves) qui ne doivent jamais être poussées sur GitHub.
 
-**Important** : comme `data/` n'est pas inclus dans l'image, le tout premier démarrage crée automatiquement une base vide avec un compte admin par défaut :
-- Email : `admin@leselites.bj`
-- Mot de passe : `LesElites2026!`
+**Important** : comme `data/` n'est pas inclus dans l'image, le tout premier démarrage crée automatiquement une base vide avec un compte admin par défaut (email `admin@oisbenin.com`). Le mot de passe initial n'est jamais écrit dans le code :
+- Définissez la variable d'environnement `ADMIN_DEFAULT_PASSWORD` sur Render **avant** le premier démarrage pour choisir vous-même ce mot de passe, ou
+- Sans cette variable, un mot de passe aléatoire est généré et affiché **une seule fois** dans les logs du service (Render → Logs), à rechercher juste après le tout premier déploiement.
 
-**Changez ce mot de passe immédiatement après le premier déploiement.**
+**Changez ce mot de passe immédiatement après la première connexion**, quelle que soit la méthode utilisée.
 
 ## Étapes à suivre (depuis votre terminal)
 

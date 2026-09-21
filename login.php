@@ -222,7 +222,7 @@ $siteSettings = get_site_settings($pdo);
         <label>Email professionnel</label>
         <div class="wrap">
           <i class="fa-regular fa-envelope"></i>
-          <input type="email" name="email" placeholder="admin@leselites.bj" required autofocus>
+          <input type="email" name="email" placeholder="admin@oisbenin.com" required autofocus>
         </div>
       </div>
 
@@ -237,11 +237,6 @@ $siteSettings = get_site_settings($pdo);
 
       <button type="submit" class="btn-submit"><i class="fa-solid fa-arrow-right-to-bracket"></i> Se connecter</button>
     </form>
-
-    <div class="demo-note">
-      <i class="fa-solid fa-circle-info"></i>
-      <div>Démo locale — identifiant <code>admin@leselites.bj</code>, mot de passe <code>LesElites2026!</code></div>
-    </div>
 
     <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Revenir au site public</a>
   </div>
