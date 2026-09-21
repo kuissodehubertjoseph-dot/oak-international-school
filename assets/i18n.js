@@ -1,5 +1,5 @@
 /* ============================================================
-   Collège Catholique Saint Jean-Baptiste — Traduction FR / EN (client-side)
+   OAK International School — Traduction FR / EN (client-side)
    Dictionnaire statique, sans dépendance externe (fiable, hors-ligne).
    ============================================================ */
 (function () {
@@ -37,7 +37,7 @@
     "« Former l'excellence d'aujourd'hui pour demain »": "“Shaping today's excellence for tomorrow”",
     "À Propos": "About",
     "École Primaire (Maternelle–CM2)": "Primary School (Kindergarten–5th grade)",
-    "© 2026 Collège Catholique Saint Jean-Baptiste — Cotonou, Bénin. Tous droits réservés.": "© 2026 Collège Catholique Saint Jean-Baptiste — Cotonou, Benin. All rights reserved.",
+    "© 2026 OAK International School — Cotonou, Bénin. Tous droits réservés.": "© 2026 OAK International School — Cotonou, Benin. All rights reserved.",
     "Rang national": "National rank",
     "Réussite BAC 2025": "BAC Success 2025",
     "Réussite BEPC 2025": "BEPC Success 2025",
@@ -70,23 +70,23 @@
     "Informatique": "Computer Science",
     "Juillet – Août 2026": "July – August 2026",
     "Laboratoire de sciences": "Science laboratory",
-    "Le Collège Catholique Saint Jean-Baptiste dispose également d'un": "The school also has a",
+    "Le OAK International School dispose également d'un": "The school also has a",
     "Maternelle – CM2": "Kindergarten – 5th grade",
     "Moyenne": "Average",
     "Nous appeler": "Call us",
     "Qui sommes-nous ?": "Who are we?",
     "Le mot de la direction": "A word from the school leadership",
-    "Bienvenue à Collège Catholique Saint Jean-Baptiste": "Welcome to Collège Catholique Saint Jean-Baptiste",
+    "Bienvenue à Oak International School": "Welcome to Oak International School",
     "Au nom de l'ensemble du personnel, je vous souhaite la plus chaleureuse bienvenue dans notre école,":
       "On behalf of the entire staff, I warmly welcome you to our school,",
     ". Mon objectif en dirigeant l'école est de continuer à offrir et à développer un enseignement de qualité exceptionnelle, et je m'engage à fournir une éducation du plus haut niveau pour votre/vos enfant(s). L'enseignement est totalement inclusif, et les cours sont stimulants et exigeants, afin de répondre aux intérêts, au plaisir et à la motivation intrinsèque de chaque élève.":
       ". My goal in leading the school is to continue offering and developing exceptional quality teaching, and I am committed to providing the highest level of education for your child(ren). Teaching is fully inclusive, and lessons are stimulating and demanding, to meet the interests, enjoyment and intrinsic motivation of every student.",
     ". Mon objectif en dirigeant l'école est de continuer à offrir et à développer un enseignement de qualité exceptionnelle, et je m'engage à fournir une éducation du plus haut niveau pour votre/vos enfant(s).":
       ". My goal in leading the school is to continue offering and developing exceptional quality teaching, and I am committed to providing the highest level of education for your child(ren).",
-    "Collège Catholique Saint Jean-Baptiste est un lieu particulier, où le personnel est dédié à offrir un environnement stimulant et enthousiasmant, où chacun se sent valorisé et en sécurité, où les idées peuvent s'épanouir et où les élèves peuvent réaliser pleinement leur potentiel. Grâce à un programme structuré et engageant et à la promotion d'un bon comportement, nous visons à éveiller chez tous les enfants l'amour de l'apprentissage, ainsi que le respect et la bienveillance envers les autres.":
-      "Collège Catholique Saint Jean-Baptiste is a special place, where staff are dedicated to providing a stimulating and exciting environment, where everyone feels valued and safe, where ideas can flourish and where students can fully realize their potential. Through a structured and engaging curriculum and the promotion of good behavior, we aim to instill in every child a love of learning, as well as respect and kindness toward others.",
-    "Collège Catholique Saint Jean-Baptiste est un lieu particulier, où le personnel est dédié à offrir un environnement stimulant et enthousiasmant, où chacun se sent valorisé et en sécurité, où les idées peuvent s'épanouir et où les élèves peuvent réaliser pleinement leur potentiel.":
-      "Collège Catholique Saint Jean-Baptiste is a special place, where staff are dedicated to providing a stimulating and exciting environment, where everyone feels valued and safe, where ideas can flourish and where students can fully realize their potential.",
+    "Oak International School est un lieu particulier, où le personnel est dédié à offrir un environnement stimulant et enthousiasmant, où chacun se sent valorisé et en sécurité, où les idées peuvent s'épanouir et où les élèves peuvent réaliser pleinement leur potentiel. Grâce à un programme structuré et engageant et à la promotion d'un bon comportement, nous visons à éveiller chez tous les enfants l'amour de l'apprentissage, ainsi que le respect et la bienveillance envers les autres.":
+      "Oak International School is a special place, where staff are dedicated to providing a stimulating and exciting environment, where everyone feels valued and safe, where ideas can flourish and where students can fully realize their potential. Through a structured and engaging curriculum and the promotion of good behavior, we aim to instill in every child a love of learning, as well as respect and kindness toward others.",
+    "Oak International School est un lieu particulier, où le personnel est dédié à offrir un environnement stimulant et enthousiasmant, où chacun se sent valorisé et en sécurité, où les idées peuvent s'épanouir et où les élèves peuvent réaliser pleinement leur potentiel.":
+      "Oak International School is a special place, where staff are dedicated to providing a stimulating and exciting environment, where everyone feels valued and safe, where ideas can flourish and where students can fully realize their potential.",
     "Quel que soit le besoin ou l'intérêt particulier de votre enfant, nous nous efforçons de garantir qu'il/elle s'épanouisse ici, qu'il/elle se sente en sécurité, qu'il/elle prenne plaisir à apprendre et qu'il/elle réussisse avec succès.":
       "Whatever your child's particular need or interest, we strive to ensure that they thrive here, feel safe, enjoy learning and succeed.",
     "Nous souhaitons que le temps passé par nos élèves à l'école soit inoubliable, qu'il s'appuie sur leurs connaissances et compétences actuelles, et qu'il les mène à devenir des apprenants tout au long de la vie. Nous attachons une grande importance au partenariat entre la maison et l'école, et nous encourageons tous les parents à prendre une part active dans l'éducation de leurs enfants. L'école ne peut pas fonctionner en isolement.":
@@ -95,7 +95,7 @@
       "The partnership between school staff, parents, the board and other stakeholders is essential. Together, we can set challenges, and our partners can help us ask how we can do even better. I hope you will find all the information you need about our school. If you need any further information, please do not hesitate to contact us.",
     "Je vous souhaite une agréable visite sur notre site web. Je serai ravie de vous rencontrer si vous souhaitez visiter notre école. Nous sommes ouverts et heureux de répondre à toutes les questions des parents, alors n'hésitez pas à appeler notre bureau si vous souhaitez en savoir plus. Merci de votre visite sur notre site !":
       "I wish you a pleasant visit to our website. I would be delighted to meet you should you wish to visit our school. We are open and happy to answer any questions from parents, so please do not hesitate to call our office if you would like to know more. Thank you for visiting our site!",
-    "Rejoindre Collège Catholique Saint Jean-Baptiste": "Join Collège Catholique Saint Jean-Baptiste",
+    "Rejoindre OAK International School": "Join OAK International School",
     "Salle informatique": "Computer room",
     "Septembre 2026": "September 2026",
     "Téléphone": "Phone",
@@ -144,7 +144,7 @@
     "8h00 – 13h00": "8:00am – 1:00pm",
     "9h45 – 10h00": "9:45am – 10:00am",
     "Accompagnement personnalisé pour les élèves en difficulté.": "Personalized support for students facing difficulties.",
-    "Accueil | Collège Catholique Saint Jean-Baptiste": "Home | Collège Catholique Saint Jean-Baptiste",
+    "Accueil | OAK International School": "Home | OAK International School",
     "Activités parascolaires variées": "Various extracurricular activities",
     "Adaptation au cycle secondaire, méthode de travail et organisation.": "Adjustment to secondary school, study methods and organization.",
     "Adresse": "Address",
@@ -210,13 +210,13 @@
     "Communication régulière, bulletins numériques.": "Regular communication, digital report cards.",
     "Communication régulière, conseils de classe ouverts et bulletins numériques accessibles à tout moment.": "Regular communication, open parent-teacher meetings and digital report cards available anytime.",
     "Concours d’éloquence": "Public speaking contest",
-    "Confidentialité | Collège Catholique Saint Jean-Baptiste": "Privacy | Collège Catholique Saint Jean-Baptiste",
+    "Confidentialité | OAK International School": "Privacy | OAK International School",
     "Confirmation & dossier d'inscription": "Confirmation & enrollment file",
     "Conformément à la réglementation en vigueur, vous disposez d'un droit d'accès, de rectification et de suppression des données vous concernant. Pour exercer ces droits, contactez-nous via notre":
       "In accordance with applicable regulations, you have the right to access, rectify and delete your personal data. To exercise these rights, contact us via our",
     "Congés scolaires": "School holidays",
     "Conservation": "Data retention",
-    "Contact | Collège Catholique Saint Jean-Baptiste": "Contact | Collège Catholique Saint Jean-Baptiste",
+    "Contact | OAK International School": "Contact | OAK International School",
     "Contactez-nous": "Contact us",
     "Cookies": "Cookies",
     "Cour de récréation": "Playground",
@@ -289,7 +289,7 @@
     "Féminin": "Female",
     "Fête culturelle": "Cultural festival",
     "Galerie photo & vidéo": "Photo & video gallery",
-    "Galerie | Collège Catholique Saint Jean-Baptiste": "Gallery | Collège Catholique Saint Jean-Baptiste",
+    "Galerie | OAK International School": "Gallery | OAK International School",
     "Grammaire avancée, problèmes complexes, premières leçons de méthode.": "Advanced grammar, complex problems, first lessons in study methods.",
     "Grandes vacances": "Summer holidays",
     "Graphisme": "Pattern drawing",
@@ -313,9 +313,9 @@
     "Inscrivez votre enfant": "Enroll your child",
     "Instant de partage": "A moment of togetherness",
     "Intensification, examens blancs BEPC/BAC": "Intensive review, mock BEPC/BAC exams",
-    "Internat | Collège Catholique Saint Jean-Baptiste": "Boarding School | Collège Catholique Saint Jean-Baptiste",
+    "Internat | OAK International School": "Boarding School | OAK International School",
     "Introduction aux notions avancées et orientation progressive.": "Introduction to advanced concepts and gradual guidance.",
-    "Intégrer Collège Catholique Saint Jean-Baptiste": "Join Collège Catholique Saint Jean-Baptiste",
+    "Intégrer OAK International School": "Join OAK International School",
     "Intégrez une école où chaque moment compte et chaque réussite est célébrée.": "Join a school where every moment matters and every success is celebrated.",
     "Intégrité": "Integrity",
     "Itinéraire sur Google Maps": "Directions on Google Maps",
@@ -323,25 +323,25 @@
       "I agree that the information entered will be used exclusively to process this pre-registration request, in accordance with the",
     "J'accepte que mes données soient utilisées pour traiter ma demande, conformément à notre":
       "I agree that my data will be used to process my request, in accordance with our",
-    "J'ai eu mon BAC série C avec mention Très Bien grâce à la préparation intensive des profs d'Collège Catholique Saint Jean-Baptiste. Aujourd'hui je suis en 2e année de médecine. Merci à toute l'équipe !":
-      "I got my BAC in Series C with high honors thanks to the intensive preparation from Collège Catholique Saint Jean-Baptiste's teachers. Today I'm in my second year of medical school. Thanks to the whole team!",
+    "J'ai eu mon BAC série C avec mention Très Bien grâce à la préparation intensive des profs d'OAK International School. Aujourd'hui je suis en 2e année de médecine. Merci à toute l'équipe !":
+      "I got my BAC in Series C with high honors thanks to the intensive preparation from OAK International School's teachers. Today I'm in my second year of medical school. Thanks to the whole team!",
     "Janvier – Mars 2027": "January – March 2027",
     "Jeux éducatifs": "Educational games",
     "Journée complète": "Full day",
     "Journée portes ouvertes": "Open house day",
     "Juillet – Septembre 2027": "July – September 2027",
     "L'effort régulier comme clé de la réussite": "Consistent effort as the key to success",
-    "L'ensemble des contenus présents sur ce site (textes, images, logo, mise en page) est la propriété du Collège Catholique Saint Jean-Baptiste, sauf mention contraire, et ne peut être reproduit, distribué ou exploité sans autorisation préalable.":
-      "All content on this site (text, images, logo, layout) is the property of Collège Catholique Saint Jean-Baptiste, unless otherwise stated, and may not be reproduced, distributed or used without prior authorization.",
-    "L'excellence académique ne suffit pas. Chez Collège Catholique Saint Jean-Baptiste, nous cultivons aussi la créativité, le sport, la citoyenneté et la vie en collectivité.":
-      "Academic excellence is not enough. At Collège Catholique Saint Jean-Baptiste, we also nurture creativity, sport, citizenship and community life.",
+    "L'ensemble des contenus présents sur ce site (textes, images, logo, mise en page) est la propriété du OAK International School, sauf mention contraire, et ne peut être reproduit, distribué ou exploité sans autorisation préalable.":
+      "All content on this site (text, images, logo, layout) is the property of OAK International School, unless otherwise stated, and may not be reproduced, distributed or used without prior authorization.",
+    "L'excellence académique ne suffit pas. Chez OAK International School, nous cultivons aussi la créativité, le sport, la citoyenneté et la vie en collectivité.":
+      "Academic excellence is not enough. At OAK International School, we also nurture creativity, sport, citizenship and community life.",
     "L'internat accueille les élèves du CM1 à la Terminale, dans la limite des places disponibles chaque année.":
       "The boarding school welcomes students from CM1 (5th grade) to the final year, subject to available places each year.",
     "L'équipe administrative": "The administrative team",
-    "La direction du Collège Catholique Saint Jean-Baptiste est responsable de la publication du présent site.": "The management of Collège Catholique Saint Jean-Baptiste is responsible for publishing this site.",
+    "La direction du OAK International School est responsable de la publication du présent site.": "The management of OAK International School is responsible for publishing this site.",
     "La musique": "Music",
     "La vie aux Élites": "Life at Élites",
-    "La vie à Collège Catholique Saint Jean-Baptiste": "Life at Collège Catholique Saint Jean-Baptiste",
+    "La vie à OAK International School": "Life at OAK International School",
     "La vie à l'internat": "Boarding school life",
     "Laboratoires de sciences": "Science laboratories",
     "Langage oral": "Oral language",
@@ -378,7 +378,7 @@
     "Mentions TB": "High Honors",
     "Mentions TB BAC": "High Honors – BAC",
     "Mentions TB BEPC": "High Honors – BEPC",
-    "Mentions légales | Collège Catholique Saint Jean-Baptiste": "Legal Notice | Collège Catholique Saint Jean-Baptiste",
+    "Mentions légales | OAK International School": "Legal Notice | OAK International School",
     "Mes deux enfants sont scolarisés ici depuis le primaire. L'ambiance est excellente, la discipline bienveillante et les résultats sont au rendez-vous. Je recommande sans hésiter.":
       "Both of my children have been enrolled here since primary school. The atmosphere is excellent, the discipline is caring and the results are there. I recommend it without hesitation.",
     "Message": "Message",
@@ -386,8 +386,8 @@
     "Mission · Vision · Valeurs": "Mission · Vision · Values",
     "Modalités & tarifs": "Terms & fees",
     "Moment de convivialité": "A friendly moment",
-    "Mon fils a intégré Collège Catholique Saint Jean-Baptiste en 6e. Aujourd'hui en Terminale, il a le niveau, la méthode et la confiance pour réussir son BAC. Les enseignants sont vraiment présents et à l'écoute.":
-      "My son joined Collège Catholique Saint Jean-Baptiste in 6th grade. Now in his final year, he has the level, the method and the confidence to pass his BAC. The teachers are truly present and attentive.",
+    "Mon fils a intégré OAK International School en 6e. Aujourd'hui en Terminale, il a le niveau, la méthode et la confiance pour réussir son BAC. Les enseignants sont vraiment présents et à l'écoute.":
+      "My son joined OAK International School in 6th grade. Now in his final year, he has the level, the method and the confidence to pass his BAC. The teachers are truly present and attentive.",
     "Motricité": "Motor skills",
     "Moy.": "Avg.",
     "Moyenne générale": "Overall average",
@@ -399,7 +399,7 @@
     "Nom": "Last name",
     "Prénom": "First name",
     "Nos Cycles d'Enseignement": "Our Education Cycles",
-    "Nos Cycles | Collège Catholique Saint Jean-Baptiste": "Our Cycles | Collège Catholique Saint Jean-Baptiste",
+    "Nos Cycles | OAK International School": "Our Cycles | OAK International School",
     "Nos Valeurs": "Our Values",
     "Nos formations": "Our programs",
     "Nos infrastructures ont été conçues pour offrir les meilleures conditions d'apprentissage : salles climatisées, laboratoires équipés, bibliothèque numérique et espaces sportifs.":
@@ -435,20 +435,20 @@
     "Où nous trouver": "Where to find us",
     "Parent d'élève — Classe de 3e": "Parent — 3ème (9th grade)",
     "Parent d'élève — Double inscription": "Parent — Two children enrolled",
-    "Depuis que ma fille est à Collège Catholique Saint Jean-Baptiste, elle a gagné en confiance et en autonomie. Le suivi personnalisé des enseignants fait toute la différence.":
-      "Since my daughter joined Collège Catholique Saint Jean-Baptiste, she has gained confidence and independence. The teachers' personalized support makes all the difference.",
+    "Depuis que ma fille est à OAK International School, elle a gagné en confiance et en autonomie. Le suivi personnalisé des enseignants fait toute la différence.":
+      "Since my daughter joined OAK International School, she has gained confidence and independence. The teachers' personalized support makes all the difference.",
     "Parent d'élève — Classe de CM2": "Parent — 5th grade class",
     "Le sérieux de l'encadrement et la qualité des enseignants ont permis à mon fils de décrocher une mention au BAC. Une école qui tient ses promesses.":
       "The seriousness of the supervision and the quality of the teachers helped my son earn honors on his BAC. A school that keeps its promises.",
     "Parent d'élève — Classe de Terminale": "Parent — Final year class",
-    "Collège Catholique Saint Jean-Baptiste m'a donné les bases solides pour réussir mes études supérieures. Je garde un excellent souvenir de mes années ici.":
-      "Collège Catholique Saint Jean-Baptiste gave me the solid foundations to succeed in higher education. I have excellent memories of my years here.",
+    "OAK International School m'a donné les bases solides pour réussir mes études supérieures. Je garde un excellent souvenir de mes années ici.":
+      "OAK International School gave me the solid foundations to succeed in higher education. I have excellent memories of my years here.",
     "Ancienne élève — Promotion 2018": "Former student — Class of 2018",
     "L'internat a rassuré toute la famille. Mon fils est bien encadré, bien nourri et suit sérieusement ses cours du soir.":
       "The boarding school reassured the whole family. My son is well supervised, well fed and takes his evening study seriously.",
     "Parent d'élève — Classe de 6e": "Parent — 6th grade class",
-    "Mes trois enfants sont scolarisés à Collège Catholique Saint Jean-Baptiste. La communication avec les enseignants est excellente et les résultats parlent d'eux-mêmes.":
-      "All three of my children are enrolled at Collège Catholique Saint Jean-Baptiste. Communication with the teachers is excellent and the results speak for themselves.",
+    "Mes trois enfants sont scolarisés à OAK International School. La communication avec les enseignants est excellente et les résultats parlent d'eux-mêmes.":
+      "All three of my children are enrolled at OAK International School. Communication with the teachers is excellent and the results speak for themselves.",
     "Parent d'élève — Triple inscription": "Parent — Three children enrolled",
     "Partenariat / Presse": "Partnership / Press",
     "Partenariat avec les parents": "Partnership with parents",
@@ -468,17 +468,17 @@
       "More than 800 students trained every year, from primary school to middle school, in a modern and caring environment in the heart of Cotonou.",
     "Politique de confidentialité": "Privacy Policy",
     "Poser une question": "Ask a question",
-    "Pour les élèves venant de loin ou dont les parents recherchent un cadre structurant, le Collège Catholique Saint Jean-Baptiste propose un internat mixte à taille humaine, au sein même de l'établissement. Dortoirs séparés filles et garçons, surveillance permanente et rythme de vie régulier : tout est pensé pour que chaque interne se sente en sécurité et puisse se consacrer pleinement à ses études.":
-      "For students coming from far away or whose parents are looking for a structured environment, Collège Catholique Saint Jean-Baptiste offers a small-scale co-ed boarding facility within the school itself. Separate dormitories for girls and boys, round-the-clock supervision and a steady daily routine: everything is designed so that every boarder feels safe and can fully focus on their studies.",
+    "Pour les élèves venant de loin ou dont les parents recherchent un cadre structurant, le OAK International School propose un internat mixte à taille humaine, au sein même de l'établissement. Dortoirs séparés filles et garçons, surveillance permanente et rythme de vie régulier : tout est pensé pour que chaque interne se sente en sécurité et puisse se consacrer pleinement à ses études.":
+      "For students coming from far away or whose parents are looking for a structured environment, OAK International School offers a small-scale co-ed boarding facility within the school itself. Separate dormitories for girls and boys, round-the-clock supervision and a steady daily routine: everything is designed so that every boarder feels safe and can fully focus on their studies.",
     "Pour toute question relative aux présentes mentions légales, vous pouvez nous contacter via notre":
       "For any question regarding this legal notice, you can contact us via our",
-    "Pourquoi Collège Catholique Saint Jean-Baptiste ?": "Why Collège Catholique Saint Jean-Baptiste?",
+    "Pourquoi OAK International School ?": "Why OAK International School?",
     "Pourquoi un internat ?": "Why a boarding school?",
     "Processus d'admission": "Admission process",
     "Programmes ambitieux, enseignants qualifiés.": "Ambitious programs, qualified teachers.",
     "Proposez-vous des bourses ?": "Do you offer scholarships?",
     "Propriété intellectuelle": "Intellectual property",
-    "Pré-inscription | Collège Catholique Saint Jean-Baptiste": "Pre-registration | Collège Catholique Saint Jean-Baptiste",
+    "Pré-inscription | OAK International School": "Pre-registration | OAK International School",
     "Prélecture": "Pre-reading",
     "Prélecture, préécriture et préparation à l'entrée au CP.": "Pre-reading, pre-writing and preparation for first grade.",
     "Prénom *": "First name *",
@@ -520,7 +520,7 @@
     "Réponse garantie sous 48h ouvrables. Les champs marqués": "Response guaranteed within 48 business hours. Fields marked",
     "Réseaux sociaux": "Social media",
     "Résultats & Tableau d'Honneur": "Results & Honor Roll",
-    "Résultats & Tableau d'Honneur | Collège Catholique Saint Jean-Baptiste": "Results & Honor Roll | Collège Catholique Saint Jean-Baptiste",
+    "Résultats & Tableau d'Honneur | OAK International School": "Results & Honor Roll | OAK International School",
     "Résultats d'admission": "Admission results",
     "Réveil, toilette, petit-déjeuner": "Wake up, hygiene, breakfast",
     "Révisions approfondies et entraînement intensif au Certificat d'Études Primaires.": "In-depth review and intensive training for the Primary School Certificate.",
@@ -624,8 +624,8 @@
     "pour plus de détails.": "for more details.",
     "se prépare ici": "is prepared here",
     "sont ouvertes. Ne tardez pas, les places sont limitées.": "is open. Don't wait, places are limited.",
-    "À Propos du Collège Catholique Saint Jean-Baptiste": "About Collège Catholique Saint Jean-Baptiste",
-    "À Propos | Collège Catholique Saint Jean-Baptiste": "About | Collège Catholique Saint Jean-Baptiste",
+    "À Propos du OAK International School": "About OAK International School",
+    "À Propos | OAK International School": "About | OAK International School",
     "Économie": "Economics",
     "Économie, gestion, comptabilité et mathématiques appliquées.": "Economics, management, accounting and applied mathematics.",
     "Éditeur du site": "Site publisher",
@@ -648,7 +648,7 @@
     "Évolution des taux de réussite": "Success rate trends",
     "Être l'établissement de référence au Bénin, reconnu pour la qualité de son corps enseignant, l'excellence de ses résultats et l'impact positif de ses anciens élèves sur la société béninoise et africaine.":
       "To be the leading school in Benin, recognized for the quality of its teaching staff, the excellence of its results and the positive impact of its alumni on Beninese and African society.",
-    "à Collège Catholique Saint Jean-Baptiste": "at Collège Catholique Saint Jean-Baptiste",
+    "à OAK International School": "at OAK International School",
     "— 10 ans": "— 10 years old",
     "— 11 ans": "— 11 years old",
     "— 12 ans": "— 12 years old",
@@ -682,7 +682,7 @@
     "Image suivante": "Next image",
     "Témoignage précédent": "Previous testimonial",
     "Témoignage suivant": "Next testimonial",
-    "Localisation Collège Catholique Saint Jean-Baptiste — Akpakpa, Cotonou": "Collège Catholique Saint Jean-Baptiste location — Akpakpa, Cotonou"
+    "Localisation OAK International School — Akpakpa, Cotonou": "OAK International School location — Akpakpa, Cotonou"
   };
 
   // Dictionnaire inverse (anglais -> français) pour le retour en FR

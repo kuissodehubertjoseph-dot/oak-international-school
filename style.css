@@ -1,6 +1,6 @@
 /* ============================================================
-   OAK INTERNATIONAL SCHOOL — Design Institutionnel
-   Palette marine & or : #0a1b3d | #16324f | #4a6fa5 | #ae7600
+   LYCÉE LES ÉLITES — Design Institutionnel
+   Palette émeraude : #00714f | #008968 | #4fb996
    Chiffres : Barlow Condensed | Corps : Inter | Titres : Playfair
    ============================================================ */
 
@@ -10,22 +10,22 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --green:        #0a1b3d;   /* Marine profond — principal    */
-  --green-mid:    #16324f;   /* Marine signature — accents    */
-  --green-light:  #4a6fa5;   /* Highlights lumineux           */
-  --green-pale:   #eaeef5;   /* Fond section doux             */
-  --green-ultra:  #f5f7fa;   /* Fond très clair               */
+  --green:        #00714f;   /* Émeraude profond — principal  */
+  --green-mid:    #008968;   /* Vert signature — accents      */
+  --green-light:  #4fb996;   /* Highlights lumineux           */
+  --green-pale:   #e8f6f0;   /* Fond section doux             */
+  --green-ultra:  #f5fbf8;   /* Fond très clair               */
   --dark:         #0f172a;   /* Presque noir pour contrastes  */
   --white:        #ffffff;
   --off-white:    #f8fafc;
   --slate:        #334155;   /* Texte corps                   */
   --slate-light:  #64748b;   /* Texte secondaire              */
   --border:       #e2e8f0;
-  --border-green: #c9d3e4;
+  --border-green: #bfe4d5;
 
-  --accent:       #ae7600;   /* Or du logo — accent, appels à l'action */
-  --accent-dark:  #8a5d00;
-  --accent-pale:  #fbf3e3;
+  --accent:       #00a878;   /* Vert du logo — accent, appels à l'action */
+  --accent-dark:  #00805a;
+  --accent-pale:  #e3f7ef;
 
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'Inter', system-ui, sans-serif;
@@ -33,8 +33,8 @@
 
   --shadow-sm:   0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
   --shadow-md:   0 4px 6px -1px rgba(0,0,0,.07), 0 2px 4px -1px rgba(0,0,0,.05);
-  --shadow-lg:   0 20px 40px -8px rgba(10,27,61,.18), 0 8px 16px -4px rgba(0,0,0,.06);
-  --shadow-green: 0 8px 24px -4px rgba(22,50,79,.3);
+  --shadow-lg:   0 20px 40px -8px rgba(0,113,79,.18), 0 8px 16px -4px rgba(0,0,0,.06);
+  --shadow-green: 0 8px 24px -4px rgba(0,137,104,.3);
 
   --radius-sm:  6px;
   --radius-md:  10px;
@@ -162,7 +162,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
 }
 .btn-accent:hover {
   background: var(--accent-dark); border-color: var(--accent-dark);
-  color: #fff; box-shadow: 0 8px 24px -4px rgba(174,118,0,.4);
+  color: #fff; box-shadow: 0 8px 24px -4px rgba(0,168,120,.4);
   transform: translateY(-1px);
 }
 
@@ -218,7 +218,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
 .lang-btn.active { background: var(--green); color: #fff; }
 #mainNav.scrolled {
   border-bottom-color: transparent;
-  box-shadow: 0 4px 20px rgba(10,27,61,.1), 0 1px 4px rgba(0,0,0,.05);
+  box-shadow: 0 4px 20px rgba(0,113,79,.1), 0 1px 4px rgba(0,0,0,.05);
   background: rgba(255,255,255,.97);
   backdrop-filter: blur(12px);
 }
@@ -296,7 +296,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   padding: .44rem 1.1rem !important;
   border-radius: 100px;
   transition: var(--transition); margin-left: .4rem;
-  box-shadow: 0 2px 8px rgba(174,118,0,.3);
+  box-shadow: 0 2px 8px rgba(0,168,120,.3);
   border: 1.5px solid var(--accent);
 }
 .nav-cta::after { display: none !important; }
@@ -304,7 +304,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   background: var(--accent-dark) !important;
   border-color: var(--accent-dark) !important;
   color: #fff !important;
-  box-shadow: 0 4px 14px rgba(174,118,0,.4);
+  box-shadow: 0 4px 14px rgba(0,168,120,.4);
   transform: translateY(-1px);
 }
 
@@ -340,9 +340,9 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   position: absolute; inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(10, 27, 61, 0.45) 0%,
-    rgba(6, 16, 38, 0.62) 50%,
-    rgba(22, 50, 79, 0.72) 100%
+    rgba(28, 38, 110, 0.45) 0%,
+    rgba(16, 22, 85, 0.62) 50%,
+    rgba(35, 45, 125, 0.72) 100%
   );
 }
 
@@ -423,9 +423,9 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   content: ''; position: absolute; inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(10, 27, 61, 0.3) 0%,
-    rgba(6, 16, 38, 0.44) 50%,
-    rgba(22, 50, 79, 0.54) 100%
+    rgba(28, 38, 110, 0.3) 0%,
+    rgba(16, 22, 85, 0.44) 50%,
+    rgba(35, 45, 125, 0.54) 100%
   );
 }
 .page-hero .container { position: relative; z-index: 2; }
@@ -494,7 +494,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   background: var(--green); color: #fff;
   padding: 1.25rem; border-radius: var(--radius-md);
   text-align: center;
-  box-shadow: 0 12px 32px rgba(10,27,61,.35);
+  box-shadow: 0 12px 32px rgba(0,113,79,.35);
 }
 .about-years-badge .ynum {
   font-family: var(--font-num); font-size: 2.1rem;
@@ -581,7 +581,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   background: var(--green); color: #fff;
   font-size: .67rem; font-weight: 700; letter-spacing: .1em;
   text-transform: uppercase; padding: .26rem .7rem; border-radius: 100px;
-  box-shadow: 0 2px 8px rgba(10,27,61,.4);
+  box-shadow: 0 2px 8px rgba(0,113,79,.4);
 }
 .programme-body { padding: 1.4rem 1.5rem; }
 .programme-body h3 { font-size: 1.1rem; margin-bottom: .42rem; }
@@ -737,7 +737,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
 .galerie-page .filter-btn:hover,
 .galerie-page .filter-btn.active {
   background: var(--green); color: #fff; border-color: var(--green);
-  box-shadow: 0 4px 12px rgba(10,27,61,.25);
+  box-shadow: 0 4px 12px rgba(0,113,79,.25);
 }
 .galerie-page .gallery-masonry { columns: 4; column-gap: 1.1rem; }
 .galerie-page .masonry-item {
@@ -1008,7 +1008,7 @@ select.form-control-custom optgroup {
   background: var(--green); color: #fff;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.15rem; flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(10,27,61,.3);
+  box-shadow: 0 4px 12px rgba(0,113,79,.3);
 }
 .cycle-header h3 { font-size: 1rem; color: var(--green); margin: 0; }
 .cycle-header .cycle-sub { font-size: .78rem; color: var(--slate-light); margin-top: .16rem; }
@@ -1073,7 +1073,7 @@ select.form-control-custom optgroup {
 }
 .contact-form-card .form-control:focus {
   border-color: var(--green-mid);
-  box-shadow: 0 0 0 3px rgba(22,50,79,.12); outline: none;
+  box-shadow: 0 0 0 3px rgba(0,137,104,.12); outline: none;
 }
 .contact-map-wrapper {
   border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md);
@@ -1192,7 +1192,7 @@ select.form-control-custom optgroup {
   cursor: pointer; opacity: 0; pointer-events: none;
   transition: opacity var(--transition), background var(--transition),
               transform var(--transition); z-index: 900;
-  box-shadow: 0 4px 14px rgba(10,27,61,.35);
+  box-shadow: 0 4px 14px rgba(0,113,79,.35);
 }
 #backToTop.visible { opacity: 1; pointer-events: auto; }
 #backToTop:hover { background: var(--green-mid); transform: translateY(-2px); }

@@ -41,7 +41,7 @@ $imagesWritable  = is_dir(__DIR__ . '/images') && is_writable(__DIR__ . '/images
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Développeur | Collège Catholique Saint Jean-Baptiste</title>
+<title>Développeur | OAK International School</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <script>
   // Appliqué avant le premier rendu pour éviter le flash clair→sombre.
@@ -329,7 +329,7 @@ $imagesWritable  = is_dir(__DIR__ . '/images') && is_writable(__DIR__ . '/images
 
         <div class="field" id="logoTextField" style="display:none">
           <label>Texte du logo</label>
-          <input type="text" id="logoTextInput" placeholder="Collège Catholique Saint Jean-Baptiste" maxlength="60">
+          <input type="text" id="logoTextInput" placeholder="OAK International School" maxlength="60">
         </div>
 
         <div class="field"><label>Aperçu en direct</label></div>
@@ -477,9 +477,9 @@ $imagesWritable  = is_dir(__DIR__ . '/images') && is_writable(__DIR__ . '/images
     logoTextField.style.display = draft.logo_mode === 'text' ? '' : 'none';
 
     if (draft.logo_mode === 'text') {
-      logoPreview.innerHTML = `<span class="brand-logo-text-dynamic">${escapeHtml(draft.logo_text || 'Collège Catholique Saint Jean-Baptiste')}</span>`;
+      logoPreview.innerHTML = `<span class="brand-logo-text-dynamic">${escapeHtml(draft.logo_text || 'OAK International School')}</span>`;
     } else {
-      logoPreview.innerHTML = `<img src="images/romaric.jpeg" alt="${escapeHtml(draft.logo_text || 'Collège Catholique Saint Jean-Baptiste')}">`;
+      logoPreview.innerHTML = `<img src="images/romaric.jpeg" alt="${escapeHtml(draft.logo_text || 'OAK International School')}">`;
     }
 
     const dirty = draft.logo_mode !== initial.logo_mode || draft.logo_text !== initial.logo_text;

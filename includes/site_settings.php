@@ -14,7 +14,7 @@ function get_site_settings(PDO $pdo): array {
 
     return array_merge([
         'logo_mode' => 'image',
-        'logo_text' => 'Collège Catholique Saint Jean-Baptiste',
+        'logo_text' => 'OAK International School',
     ], $data);
 }
 
@@ -23,7 +23,7 @@ function save_site_settings(PDO $pdo, array $partial): array {
     $updated = array_merge($current, $partial);
 
     $updated['logo_mode'] = $updated['logo_mode'] === 'text' ? 'text' : 'image';
-    $updated['logo_text'] = trim((string) ($updated['logo_text'] ?? '')) ?: 'Collège Catholique Saint Jean-Baptiste';
+    $updated['logo_text'] = trim((string) ($updated['logo_text'] ?? '')) ?: 'OAK International School';
 
     $stmt = $pdo->prepare("INSERT INTO site_settings (id, data) VALUES ('main', ?)
         ON CONFLICT(id) DO UPDATE SET data = excluded.data");
