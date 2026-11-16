@@ -1,0 +1,16 @@
+{
+  "services": {
+    "oak-international-school": {
+      "root": "."
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "oak-international-school"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+node_modules
+data
+uploads
+backups
+includes
+*.php
+Dockerfile
+docker-entrypoint.sh
+render.yaml
+*.bat
+README-DEPLOY.md
+package.json
+package-lock.json
+.claude
