@@ -1,6 +1,6 @@
 /* ============================================================
    LYCÉE LES ÉLITES — Design Institutionnel
-   Palette émeraude : #00714f | #008968 | #4fb996
+   Palette émeraude : #0a17c4 | #1429e8 | #7080ff
    Chiffres : Barlow Condensed | Corps : Inter | Titres : Playfair
    ============================================================ */
 
@@ -10,22 +10,22 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --green:        #00714f;   /* Émeraude profond — principal  */
-  --green-mid:    #008968;   /* Vert signature — accents      */
-  --green-light:  #4fb996;   /* Highlights lumineux           */
-  --green-pale:   #e8f6f0;   /* Fond section doux             */
-  --green-ultra:  #f5fbf8;   /* Fond très clair               */
+  --green:        #0a17c4;   /* Émeraude profond — principal  */
+  --green-mid:    #1429e8;   /* Vert signature — accents      */
+  --green-light:  #7080ff;   /* Highlights lumineux           */
+  --green-pale:   #e9ecff;   /* Fond section doux             */
+  --green-ultra:  #f5f6ff;   /* Fond très clair               */
   --dark:         #0f172a;   /* Presque noir pour contrastes  */
   --white:        #ffffff;
   --off-white:    #f8fafc;
   --slate:        #334155;   /* Texte corps                   */
   --slate-light:  #64748b;   /* Texte secondaire              */
   --border:       #e2e8f0;
-  --border-green: #bfe4d5;
+  --border-green: #c3caff;
 
-  --accent:       #00a878;   /* Vert du logo — accent, appels à l'action */
-  --accent-dark:  #00805a;
-  --accent-pale:  #e3f7ef;
+  --accent:       #1530f0;   /* Vert du logo — accent, appels à l'action */
+  --accent-dark:  #0f22c8;
+  --accent-pale:  #e6e9ff;
 
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'Inter', system-ui, sans-serif;
@@ -33,8 +33,8 @@
 
   --shadow-sm:   0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
   --shadow-md:   0 4px 6px -1px rgba(0,0,0,.07), 0 2px 4px -1px rgba(0,0,0,.05);
-  --shadow-lg:   0 20px 40px -8px rgba(0,113,79,.18), 0 8px 16px -4px rgba(0,0,0,.06);
-  --shadow-green: 0 8px 24px -4px rgba(0,137,104,.3);
+  --shadow-lg:   0 20px 40px -8px rgba(10,23,196,.18), 0 8px 16px -4px rgba(0,0,0,.06);
+  --shadow-green: 0 8px 24px -4px rgba(20,41,232,.3);
 
   --radius-sm:  6px;
   --radius-md:  10px;
@@ -162,7 +162,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
 }
 .btn-accent:hover {
   background: var(--accent-dark); border-color: var(--accent-dark);
-  color: #fff; box-shadow: 0 8px 24px -4px rgba(0,168,120,.4);
+  color: #fff; box-shadow: 0 8px 24px -4px rgba(21,48,240,.4);
   transform: translateY(-1px);
 }
 
@@ -197,7 +197,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
 @media (min-width: 992px) {
   #mainNav .navbar-collapse { flex: 1 1 auto; display: flex !important; align-items: center; }
   #mainNav .navbar-nav { flex: 1 1 auto; justify-content: center; }
-  #mainNav .nav-cta { flex-shrink: 0; margin-left: 1rem; }
+  #mainNav .nav-cta, #mainNav .nav-portail { flex-shrink: 0; margin-left: 1rem; }
   #mainNav .lang-switch { margin-left: .75rem; }
 }
 
@@ -218,7 +218,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
 .lang-btn.active { background: var(--green); color: #fff; }
 #mainNav.scrolled {
   border-bottom-color: transparent;
-  box-shadow: 0 4px 20px rgba(0,113,79,.1), 0 1px 4px rgba(0,0,0,.05);
+  box-shadow: 0 4px 20px rgba(10,23,196,.1), 0 1px 4px rgba(0,0,0,.05);
   background: rgba(255,255,255,.97);
   backdrop-filter: blur(12px);
 }
@@ -296,15 +296,28 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   padding: .44rem 1.1rem !important;
   border-radius: 100px;
   transition: var(--transition); margin-left: .4rem;
-  box-shadow: 0 2px 8px rgba(0,168,120,.3);
+  box-shadow: 0 2px 8px rgba(21,48,240,.3);
   border: 1.5px solid var(--accent);
 }
 .nav-cta::after { display: none !important; }
+.nav-portail {
+  font-size: 0.8rem; font-weight: 700;
+  color: var(--green) !important;
+  background: transparent;
+  padding: .44rem 1.1rem !important;
+  border-radius: 100px;
+  border: 1.5px solid var(--green);
+  transition: var(--transition); margin-left: .4rem;
+  white-space: nowrap;
+}
+.nav-portail::after { display: none !important; }
+.nav-portail:hover { background: var(--green) !important; color: #fff !important; }
+
 .nav-cta:hover {
   background: var(--accent-dark) !important;
   border-color: var(--accent-dark) !important;
   color: #fff !important;
-  box-shadow: 0 4px 14px rgba(0,168,120,.4);
+  box-shadow: 0 4px 14px rgba(21,48,240,.4);
   transform: translateY(-1px);
 }
 
@@ -334,6 +347,14 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   opacity: 1;
   pointer-events: auto;
 }
+
+/* Vidéo de fond */
+.hero-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+@media (prefers-reduced-motion: reduce) { .hero-video { display: none; } }
 
 /* Overlay sombre sur chaque slide */
 .hero-overlay {
@@ -494,7 +515,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   background: var(--green); color: #fff;
   padding: 1.25rem; border-radius: var(--radius-md);
   text-align: center;
-  box-shadow: 0 12px 32px rgba(0,113,79,.35);
+  box-shadow: 0 12px 32px rgba(10,23,196,.35);
 }
 .about-years-badge .ynum {
   font-family: var(--font-num); font-size: 2.1rem;
@@ -581,7 +602,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
   background: var(--green); color: #fff;
   font-size: .67rem; font-weight: 700; letter-spacing: .1em;
   text-transform: uppercase; padding: .26rem .7rem; border-radius: 100px;
-  box-shadow: 0 2px 8px rgba(0,113,79,.4);
+  box-shadow: 0 2px 8px rgba(10,23,196,.4);
 }
 .programme-body { padding: 1.4rem 1.5rem; }
 .programme-body h3 { font-size: 1.1rem; margin-bottom: .42rem; }
@@ -737,7 +758,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
 .galerie-page .filter-btn:hover,
 .galerie-page .filter-btn.active {
   background: var(--green); color: #fff; border-color: var(--green);
-  box-shadow: 0 4px 12px rgba(0,113,79,.25);
+  box-shadow: 0 4px 12px rgba(10,23,196,.25);
 }
 .galerie-page .gallery-masonry { columns: 4; column-gap: 1.1rem; }
 .galerie-page .masonry-item {
@@ -764,7 +785,7 @@ p  { color: var(--slate); margin-bottom: 1rem; }
 .galerie-page .masonry-item:hover img { transform: scale(1.06); }
 .galerie-page .masonry-overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(0,20,14,.7) 0%, rgba(0,20,14,0) 55%);
+  background: linear-gradient(to top, rgba(2,6,40,.7) 0%, rgba(2,6,40,0) 55%);
   display: flex; align-items: center; justify-content: center;
   opacity: 0; transition: opacity var(--transition);
 }
@@ -1008,7 +1029,7 @@ select.form-control-custom optgroup {
   background: var(--green); color: #fff;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.15rem; flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(0,113,79,.3);
+  box-shadow: 0 4px 12px rgba(10,23,196,.3);
 }
 .cycle-header h3 { font-size: 1rem; color: var(--green); margin: 0; }
 .cycle-header .cycle-sub { font-size: .78rem; color: var(--slate-light); margin-top: .16rem; }
@@ -1073,7 +1094,7 @@ select.form-control-custom optgroup {
 }
 .contact-form-card .form-control:focus {
   border-color: var(--green-mid);
-  box-shadow: 0 0 0 3px rgba(0,137,104,.12); outline: none;
+  box-shadow: 0 0 0 3px rgba(20,41,232,.12); outline: none;
 }
 .contact-map-wrapper {
   border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md);
@@ -1192,7 +1213,7 @@ select.form-control-custom optgroup {
   cursor: pointer; opacity: 0; pointer-events: none;
   transition: opacity var(--transition), background var(--transition),
               transform var(--transition); z-index: 900;
-  box-shadow: 0 4px 14px rgba(0,113,79,.35);
+  box-shadow: 0 4px 14px rgba(10,23,196,.35);
 }
 #backToTop.visible { opacity: 1; pointer-events: auto; }
 #backToTop:hover { background: var(--green-mid); transform: translateY(-2px); }

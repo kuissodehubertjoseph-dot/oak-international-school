@@ -41,7 +41,7 @@ $imagesWritable  = is_dir(__DIR__ . '/images') && is_writable(__DIR__ . '/images
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Développeur | OAK International School</title>
+<title>Développeur | Complexe Scolaire Catholique Père Gilbert Dagnon</title>
 <link rel="icon" type="image/jpeg" href="images/romaric.jpeg">
 <script>
   // Appliqué avant le premier rendu pour éviter le flash clair→sombre.
@@ -329,7 +329,7 @@ $imagesWritable  = is_dir(__DIR__ . '/images') && is_writable(__DIR__ . '/images
 
         <div class="field" id="logoTextField" style="display:none">
           <label>Texte du logo</label>
-          <input type="text" id="logoTextInput" placeholder="OAK International School" maxlength="60">
+          <input type="text" id="logoTextInput" placeholder="Complexe Scolaire Catholique Père Gilbert Dagnon" maxlength="60">
         </div>
 
         <div class="field"><label>Aperçu en direct</label></div>
@@ -477,9 +477,9 @@ $imagesWritable  = is_dir(__DIR__ . '/images') && is_writable(__DIR__ . '/images
     logoTextField.style.display = draft.logo_mode === 'text' ? '' : 'none';
 
     if (draft.logo_mode === 'text') {
-      logoPreview.innerHTML = `<span class="brand-logo-text-dynamic">${escapeHtml(draft.logo_text || 'OAK International School')}</span>`;
+      logoPreview.innerHTML = `<span class="brand-logo-text-dynamic">${escapeHtml(draft.logo_text || 'Complexe Scolaire Catholique Père Gilbert Dagnon')}</span>`;
     } else {
-      logoPreview.innerHTML = `<img src="images/romaric.jpeg" alt="${escapeHtml(draft.logo_text || 'OAK International School')}">`;
+      logoPreview.innerHTML = `<img src="images/romaric.jpeg" alt="${escapeHtml(draft.logo_text || 'Complexe Scolaire Catholique Père Gilbert Dagnon')}">`;
     }
 
     const dirty = draft.logo_mode !== initial.logo_mode || draft.logo_text !== initial.logo_text;

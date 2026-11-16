@@ -118,148 +118,7 @@ function render_resultat_featured(?array $l): string {
 
 /** Carte grille (resultats.html — tous les lauréats sauf la vedette). */
 function render_resultat_grid_card(array $l): string {
-    return '<div class="col-sm-6 col-lg-4 reveal">
-        <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);
-                    overflow:hidden;box-shadow:var(--shadow-sm);transition:transform var(--transition),box-shadow var(--transition)"
-             onmouseover="this.style.transform=\'translateY(-4px)\';this.style.boxShadow=\'var(--shadow-md)\'"
-             onmouseout="this.style.transform=\'\';this.style.boxShadow=\'var(--shadow-sm)\'">
-
-          <div style="aspect-ratio:3/2;overflow:hidden;position:relative">
-            <img src="' . h($l['photo']) . '"
-                 alt="' . h($l['nom']) . '"
-                 style="width:100%;height:100%;object-fit:cover;object-position:center 35%;transition:transform .4s"
-                 onmouseover="this.style.transform=\'scale(1.04)\'"
-                 onmouseout="this.style.transform=\'\'" />
-            <div style="position:absolute;top:.75rem;right:.75rem;
-                        background:var(--green);color:#fff;
-                        font-size:.65rem;font-weight:700;letter-spacing:.08em;
-                        text-transform:uppercase;padding:.25rem .7rem;border-radius:100px">
-              ' . h($l['examen']) . ' ' . h($l['annee']) . '            </div>
-          </div>
-
-          <div style="padding:1.25rem">
-            <div class="d-flex align-items-center gap-2 mb-2">
-              <span style="font-size:1.2rem">' . h($l['medaille']) . '</span>
-              <span style="font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--green-light)">
-                ' . h($l['classe']) . '              </span>
-            </div>
-
-            <h4 style="font-size:.98rem;color:var(--green);margin-bottom:.4rem">
-              ' . h($l['nom']) . '            </h4>
-
-            <div class="d-flex gap-3 mt-2 pt-2" style="border-top:1px solid var(--border)">
-              <div>
-                <span style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;color:var(--green);display:block;line-height:1">
-                  ' . h($l['moyenne']) . '                </span>
-                <span style="font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--slate-light)">Moy.</span>
-              </div>
-              <div style="border-left:1px solid var(--border);padding-left:.75rem">
-                <span style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;color:var(--green-light);display:block;line-height:1">
-                  ' . h($l['rang_departemental']) . '                </span>
-                <span style="font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--slate-light)">Rang Dép.</span>
-              </div>
-              <div style="border-left:1px solid var(--border);padding-left:.75rem">
-                <span style="font-family:var(--font-display);font-size:1.4rem;font-weight:700;color:var(--slate-light);display:block;line-height:1">
-                  ' . h($l['rang']) . '                </span>
-                <span style="font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--slate-light)">Rang Nat.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>';
-}
-
-function render_resultats_grid_block(array $rows): string {
-    return implode("\n", array_map('render_resultat_grid_card', $rows));
-}
-
-/** Carte membre du personnel (galerie.html). */
-function render_staff_card(array $s): string {
-    if (!empty($s['photo'])) {
-        $media = '<img src="' . h($s['photo']) . '" alt="' . h($s['role']) . '"
-               class="rounded-circle mx-auto mb-3"
-               style="width:120px;height:120px;object-fit:cover;object-position:center 25%;border:3px solid var(--green-light);box-shadow:var(--shadow-md)">';
-    } else {
-        $media = '<div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center"
-               style="width:120px;height:120px;background:var(--green-pale);border:3px solid var(--green-light);box-shadow:var(--shadow-md);color:var(--green);font-size:2.2rem">
-            <i class="fa-solid fa-user"></i>
-          </div>';
-    }
-    return '<div class="staff-item">
-          ' . $media . '
-          <h4 style="font-size:.95rem;color:var(--green);margin-bottom:.15rem">' . h($s['nom']) . '</h4>
-          <p style="font-size:.78rem;color:var(--slate-light);margin:0">' . h($s['role']) . '</p>
-      </div>';
-}
-
-function render_staff_block(array $rows): string {
-    return implode("\n", array_map('render_staff_card', $rows));
-}
-
-/** Vignette galerie (galerie.html masonry). */
-function render_photo_item(array $p): string {
-    $title = h($p['titre']);
-    return '<div class="masonry-item" data-src="' . h($p['image']) . '" data-title="' . $title . '" onclick="openLightbox(this)">
-        <img src="' . h($p['image']) . '" alt="' . $title . '" loading="lazy" />
-        <div class="masonry-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-        <div style="position:absolute;bottom:.75rem;left:.75rem;
-                    background:var(--green);color:#fff;
-                    font-size:.65rem;font-weight:600;letter-spacing:.08em;
-                    text-transform:uppercase;padding:.2rem .65rem;border-radius:100px">
-          ' . $title . '        </div>
-      </div>';
-}
-
-function render_gallery_block(array $rows): string {
-    return implode("\n", array_map('render_photo_item', $rows));
-}
-
-/** Bande de chiffres clés (index.html, a_propos.html). */
-function render_stat_card(array $s): string {
-    return '<div class="col">
-        <div class="stat-card-band">
-          <span class="num" data-target="' . h($s['valeur']) . '" data-suffix="' . h($s['suffixe']) . '">' . h($s['valeur']) . h($s['suffixe']) . '</span>
-          <span class="label">' . h($s['label']) . '</span>
-        </div>
-      </div>';
-}
-
-function render_stats_block(array $rows): string {
-    return implode("\n      ", array_map('render_stat_card', $rows));
-}
-
-/** Bloc footer "Nous contacter" (répété sur toutes les pages). */
-function render_footer_contact(array $c): string {
-    $tel1Href = 'tel:+' . preg_replace('/\D/', '', $c['telephone1']);
-    $tel2Href = 'tel:+' . preg_replace('/\D/', '', $c['telephone2']);
-    return '<div class="footer-contact-item">
-          <div class="footer-contact-icon"><i class="fa-solid fa-location-dot"></i></div>
-          <div class="footer-contact-text">
-            ' . h($c['adresse_ligne1']) . '<br>' . h($c['adresse_ligne2']) . '
-          </div>
-        </div>
-
-        <div class="footer-contact-item">
-          <div class="footer-contact-icon"><i class="fa-solid fa-phone"></i></div>
-          <div class="footer-contact-text">
-            <a href="' . h($tel1Href) . '">' . h($c['telephone1']) . '</a><br>
-            <a href="' . h($tel2Href) . '">' . h($c['telephone2']) . '</a>
-          </div>
-        </div>
-
-        <div class="footer-contact-item">
-          <div class="footer-contact-icon"><i class="fa-regular fa-clock"></i></div>
-          <div class="footer-contact-text">
-            ' . h($c['horaires_semaine']) . '<br>' . h($c['horaires_samedi']) . '
-          </div>
-        </div>
-
-        <div class="footer-contact-item">
-          <div class="footer-contact-icon"><i class="fa-solid fa-envelope"></i></div>
-          <div class="footer-contact-text">
-            <a href="mailto:' . h($c['email']) . '">' . h($c['email']) . '</a>
-          </div>
-        </div>';
+    return '';
 }
 
 /** Cartes infos rapides (contact.html). */
@@ -290,15 +149,6 @@ function render_contact_quick_cards(array $c): string {
           </div>
           <div style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green-light);margin-bottom:.4rem">Heures d\'ouverture</div>
           <p style="font-size:.88rem;color:var(--slate);line-height:1.6;margin:0">' . h($c['horaires_semaine']) . '<br>' . h($c['horaires_samedi']) . '</p>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4 reveal">
-        <div style="background:#fff;border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.5rem;text-align:center;height:100%;box-shadow:var(--shadow-sm)">
-          <div style="width:52px;height:52px;background:var(--green-pale);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;font-size:1.1rem;color:var(--green)">
-            <i class="fa-solid fa-envelope"></i>
-          </div>
-          <div style="font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--green-light);margin-bottom:.4rem">E-mail</div>
-          <a href="mailto:' . h($c['email']) . '" style="font-size:.88rem;color:var(--slate);line-height:1.6">' . h($c['email']) . '</a>
         </div>
       </div>';
 }
@@ -331,14 +181,6 @@ function render_contact_info_list(array $c): string {
             <div>
               <div class="contact-info-label">Heures d\'accueil</div>
               <div class="contact-info-value">' . h($c['horaires_semaine']) . '<br>' . h($c['horaires_samedi']) . '</div>
-            </div>
-          </div>
-
-          <div class="contact-info-item">
-            <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
-            <div>
-              <div class="contact-info-label">E-mail</div>
-              <div class="contact-info-value"><a href="mailto:' . h($c['email']) . '">' . h($c['email']) . '</a></div>
             </div>
           </div>';
 }

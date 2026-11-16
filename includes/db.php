@@ -92,7 +92,7 @@ $pdo->exec("CREATE TABLE IF NOT EXISTS site_settings (
 )");
 if ((int) $pdo->query("SELECT COUNT(*) FROM site_settings WHERE id = 'main'")->fetchColumn() === 0) {
     $pdo->prepare("INSERT INTO site_settings (id, data) VALUES ('main', ?)")
-        ->execute([json_encode(['logo_mode' => 'image', 'logo_text' => 'OAK International School'], JSON_UNESCAPED_UNICODE)]);
+        ->execute([json_encode(['logo_mode' => 'image', 'logo_text' => 'Complexe Scolaire Catholique Père Gilbert Dagnon'], JSON_UNESCAPED_UNICODE)]);
 }
 
 $pdo->exec("CREATE TABLE IF NOT EXISTS preinscriptions (
@@ -200,7 +200,7 @@ $laureatCount = (int) $pdo->query('SELECT COUNT(*) FROM laureats')->fetchColumn(
 if ($laureatCount === 0) {
     $stmt = $pdo->prepare('INSERT INTO laureats (nom, classe, examen, annee, moyenne, rang, rang_departemental, serie, medaille, photo, featured) VALUES (?,?,?,?,?,?,?,?,?,?,?)');
     $stmt->execute(['Afiwa KODJO', '3ème', 'BEPC', 2024, 18.75, '8ème', '1er', 'Série A (Littéraire)', '🥇', 'images/laureat-a89816267a91.jpg', 1]);
-    $stmt->execute(['Bernice TOSSOU', 'Tle C', 'BAC', 2024, 17.92, '12ème', '3ème', null, '🥈', 'images/39-Large-2.jpeg', 0]);
+    $stmt->execute(['Bernice TOSSOU', 'Tle C', 'BAC', 2024, 17.92, '12ème', '3ème', null, '🥈', 'images/photo-09.jpg', 0]);
 } else {
     /* Complète les anciennes fiches lauréats avec les nouveaux champs, une seule fois. */
     $stmt = $pdo->prepare("UPDATE laureats SET rang_departemental=?, serie=?, featured=? WHERE nom=? AND rang_departemental IS NULL");
@@ -215,7 +215,7 @@ $actuCount = (int) $pdo->query('SELECT COUNT(*) FROM actualites')->fetchColumn()
 if ($actuCount === 0) {
     $stmt = $pdo->prepare('INSERT INTO actualites (titre, slug, categorie, extrait, image, date_pub) VALUES (?,?,?,?,?,?)');
     $stmt->execute(['5 astuces pour réussir son BAC au Bénin', '5-astuces-reussir-bac-benin', 'Conseils', "Découvrez les méthodes de révision les plus efficaces...", 'images/laureat-a89816267a91.jpg', '2026-03-26']);
-    $stmt->execute(['Inauguration du nouveau laboratoire', 'inauguration-labo-sciences', 'Événements', 'Les Élites investissent dans le futur...', 'images/49-Large.jpeg', '2026-03-26']);
+    $stmt->execute(['Inauguration du nouveau laboratoire', 'inauguration-labo-sciences', 'Événements', 'Complexe Scolaire Catholique Père Gilbert Dagnon investit dans le futur...', 'images/photo-04.jpg', '2026-03-26']);
 }
 
 /* ══════════════════════════════════════════════════════════
@@ -298,27 +298,27 @@ if ((int) $pdo->query('SELECT COUNT(*) FROM staff')->fetchColumn() === 0) {
 
 if ((int) $pdo->query('SELECT COUNT(*) FROM galerie_photos')->fetchColumn() === 0) {
     $photos = [
-        ['images/6-Large-1.jpeg', "Cérémonie d'ouverture"],
-        ['images/22-Large-1.jpeg', 'Bâtiment principal'],
-        ['images/25-Large-1.jpeg', 'Laboratoire de sciences'],
-        ['images/32-Large-1.jpeg', 'Bibliothèque numérique'],
-        ['images/33-Large-2.jpeg', 'Activités sportives'],
-        ['images/34-Large-2.jpeg', 'Remise de diplômes'],
-        ['images/35-Large-2.jpeg', 'Cour de récréation'],
-        ['images/36-Large-1.jpeg', 'Salle de classe'],
-        ['images/37-Large-1.jpeg', 'Fête culturelle'],
-        ['images/39-Large-2.jpeg', "Concours d'éloquence"],
-        ['images/40-Large-1.jpeg', 'Visite scientifique'],
-        ['images/41-Large-1.jpeg', 'Journée portes ouvertes'],
-        ['images/42-Large-2.jpeg', 'Club de lecture'],
-        ['images/43-Large-1.jpeg', "Séance d'arts plastiques"],
-        ['images/44-Large-2.jpeg', 'Tournoi inter-classes'],
-        ['images/47-Large.jpeg', 'Lauréats du BEPC'],
-        ['images/49-Large.jpeg', 'Inauguration labo'],
-        ['images/68-Large.jpeg', "Séance d'informatique"],
-        ['images/110-Large.jpeg', 'Excursion pédagogique'],
-        ['images/146-Large.jpeg', 'Récompenses académiques'],
-        ['images/159-Large.jpeg', 'Remise de prix annuelle'],
+        ['images/photo-02.jpg', "Cérémonie d'ouverture"],
+        ['images/photo-01.jpg', 'Bâtiment principal'],
+        ['images/photo-03.jpg', 'Laboratoire de sciences'],
+        ['images/photo-19.jpg', 'Bibliothèque numérique'],
+        ['images/photo-15.jpg', 'Activités sportives'],
+        ['images/photo-04.jpg', 'Remise de diplômes'],
+        ['images/photo-14.jpg', 'Cour de récréation'],
+        ['images/photo-20.jpg', 'Salle de classe'],
+        ['images/photo-07.jpg', 'Fête culturelle'],
+        ['images/photo-09.jpg', "Concours d'éloquence"],
+        ['images/photo-18.jpg', 'Visite scientifique'],
+        ['images/photo-17.jpg', 'Journée portes ouvertes'],
+        ['images/photo-08.jpg', 'Club de lecture'],
+        ['images/photo-06.jpg', "Séance d'arts plastiques"],
+        ['images/photo-13.jpg', 'Tournoi inter-classes'],
+        ['images/photo-16.jpg', 'Lauréats du BEPC'],
+        ['images/photo-04.jpg', 'Inauguration labo'],
+        ['images/photo-12.jpg', "Séance d'informatique"],
+        ['images/photo-11.jpg', 'Excursion pédagogique'],
+        ['images/photo-05.jpg', 'Récompenses académiques'],
+        ['images/photo-17.jpg', 'Remise de prix annuelle'],
     ];
     $stmt = $pdo->prepare('INSERT INTO galerie_photos (image, titre, ordre) VALUES (?,?,?)');
     foreach ($photos as $i => $p) { $stmt->execute([$p[0], $p[1], $i + 1]); }
@@ -338,7 +338,7 @@ if ((int) $pdo->query('SELECT COUNT(*) FROM stats')->fetchColumn() === 0) {
 
 if ((int) $pdo->query('SELECT COUNT(*) FROM contact_info')->fetchColumn() === 0) {
     $stmt = $pdo->prepare('INSERT INTO contact_info (id, adresse_ligne1, adresse_ligne2, telephone1, telephone2, horaires_semaine, horaires_samedi, email) VALUES (1,?,?,?,?,?,?,?)');
-    $stmt->execute(['Rue Pharmaquick, en face Société LABOREX', 'Cité Vie Nouvelle, Akpakpa, Cotonou, Bénin', '(+229) 0164 931 111', '(+229) 0160 022 222', 'Lun – Ven : 7h30 – 17h30', 'Samedi : 8h00 – 13h00', 'Info@oisbenin.com']);
+    $stmt->execute(['PAHOU', 'Von avant le commissariat de police', '(+229) 0198 941 036', '(+229) 0151 456 692', 'Lun – Ven : 7h30 – 17h30', 'Samedi : 8h00 – 13h00', 'Info@oisbenin.com']);
 }
 
 if ((int) $pdo->query('SELECT COUNT(*) FROM cycles_niveaux')->fetchColumn() === 0) {
